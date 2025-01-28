@@ -1,0 +1,124 @@
+guid: 7a9d59bb-3472-45c8-891f-eefed51bc691
+table:
+  name: SFDC_QUOTE
+  db: GTM_DB
+  schema: PUBLIC
+  db_table: SFDC_QUOTE
+  connection:
+    name: Analytics
+    fqn: 57cc6155-5118-4888-9ba4-c1c0c65ba088
+  columns:
+  - name: Quote Bill To Name
+    db_column_name: Quote Bill To Name
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Quote Name
+    db_column_name: Quote Name
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Quote Status
+    db_column_name: Quote Status
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Quote Primary Quote
+    db_column_name: Quote Primary Quote
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: BOOL
+  - name: Quote Opportunity ID
+    db_column_name: Quote Opportunity ID
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Quote Ship To Name
+    db_column_name: Quote Ship To Name
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Quote Primary Contact Name
+    db_column_name: Quote Primary Contact Name
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Quote Additional Terms
+    db_column_name: Quote Additional Terms
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Quote Primary Contact ID
+    db_column_name: Quote Primary Contact ID
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Quote Start Date
+    db_column_name: Quote Start Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Quote Hide Logo Language
+    db_column_name: Quote Hide Logo Language
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: BOOL
+  - name: Quote SBQQ Last Saved On
+    db_column_name: Quote SBQQ Last Saved On
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE_TIME
+  - name: Quote ID
+    db_column_name: Quote ID
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  joins_with:
+  - name: FK_QUOTE_TO_OPPORTUNITY
+    destination:
+      name: SFDC_OPPORTUNITY
+      fqn: 28ea7b2a-dcb1-4e47-8458-018d88a27e00
+    "on": "[SFDC_QUOTE::Quote Opportunity ID] = [SFDC_OPPORTUNITY::Opportunity ID]"
+    type: INNER
+  properties:
+    sage_config:
+      is_sage_enabled: true

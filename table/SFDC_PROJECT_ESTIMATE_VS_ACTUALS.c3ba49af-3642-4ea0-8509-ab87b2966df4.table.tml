@@ -1,0 +1,328 @@
+guid: c3ba49af-3642-4ea0-8509-ab87b2966df4
+table:
+  name: SFDC_PROJECT_ESTIMATE_VS_ACTUALS
+  db: GTM_DB
+  schema: PUBLIC
+  db_table: SFDC_PROJECT_ESTIMATE_VS_ACTUALS
+  connection:
+    name: Analytics
+    fqn: 57cc6155-5118-4888-9ba4-c1c0c65ba088
+  columns:
+  - name: Project Estimate ID
+    db_column_name: Project Estimate ID
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Owner ID
+    db_column_name: Project Estimate Owner ID
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Is Deleted
+    db_column_name: Project Estimate Is Deleted
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Name
+    db_column_name: Project Estimate Name
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Currency ISO Code
+    db_column_name: Currency ISO Code
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Created Date
+    db_column_name: Project Estimate Created Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE_TIME
+  - name: Project Estimate Created By ID
+    db_column_name: Project Estimate Created By ID
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Last Modified Date
+    db_column_name: Project Estimate Last Modified Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE_TIME
+  - name: Project Estimate Last Modified By ID
+    db_column_name: Project Estimate Last Modified By ID
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate System Modified Timestamp
+    db_column_name: Project Estimate System Modified Timestamp
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE_TIME
+  - name: Project Estimate Last Viewed Date
+    db_column_name: Project Estimate Last Viewed Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE_TIME
+  - name: Project Estimate Last Referenced Date
+    db_column_name: Project Estimate Last Referenced Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE_TIME
+  - name: Project Estimate Actual Average Bill Rate
+    db_column_name: Project Estimate Actual Average Bill Rate
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Actual Billable Amount
+    db_column_name: Project Estimate Actual Billable Amount
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Actual Days
+    db_column_name: Project Estimate Actual Days
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Actual Hours
+    db_column_name: Project Estimate Actual Hours
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Assignment ID
+    db_column_name: Project Estimate Assignment ID
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Days Percent Variance
+    db_column_name: Project Estimate Days Percent Variance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Days Variance
+    db_column_name: Project Estimate Days Variance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate End Date
+    db_column_name: Project Estimate End Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Project Estimate Estimated Days
+    db_column_name: Project Estimate Estimated Days
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Estimated Hours
+    db_column_name: Project Estimate Estimated Hours
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Percent Variance
+    db_column_name: Project Estimate Percent Variance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Manager ID
+    db_column_name: Project Estimate Manager ID
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project ID
+    db_column_name: Project ID
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Resource
+    db_column_name: Project Estimate Resource
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Scheduled Bill Rate
+    db_column_name: Project Estimate Scheduled Bill Rate
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Scheduled Bill Rate is Daily Rate
+    db_column_name: Project Estimate Scheduled Bill Rate is Daily Rate
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Start Date
+    db_column_name: Project Estimate Start Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Project Estimate Time Period Type
+    db_column_name: Project Estimate Time Period Type
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Time Period ID
+    db_column_name: Project Estimate Time Period ID
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Timecards Submitted
+    db_column_name: Project Estimate Timecards Submitted
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Variance
+    db_column_name: Project Estimate Variance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Report Actual Billings
+    db_column_name: Project Estimate Report Actual Billings
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Report EvA Variance
+    db_column_name: Project Estimate Report EvA Variance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate Report Scheduled Billings
+    db_column_name: Project Estimate Report Scheduled Billings
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Project Estimate End Date Is Last Sunday
+    db_column_name: Project Estimate End Date Is Last Sunday
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate High Hours Percent Variance
+    db_column_name: Project Estimate High Hours Percent Variance
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Project Estimate Manager Is Current User
+    db_column_name: Project Estimate Manager Is Current User
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  joins_with:
+  - name: SFDC_PROJECT_ESTIMATE_VS_ACTUALS_to_SFDC_PROJECT
+    destination:
+      name: SFDC_PROJECT
+      fqn: 27102553-8120-489a-81ed-56d63212a411
+    "on": "([SFDC_PROJECT_ESTIMATE_VS_ACTUALS::Project ID] = [SFDC_PROJECT::Project ID])"
+    type: INNER
+  properties:
+    sage_config:
+      is_sage_enabled: true

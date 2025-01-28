@@ -1,0 +1,48 @@
+guid: a68913da-a964-464c-b861-80127f52208d
+table:
+  name: SFDC_CASE_JIRA_SCAL_BRIDGE
+  db: GTM_DB
+  schema: PUBLIC
+  db_table: SFDC_CASE_JIRA_SCAL_BRIDGE
+  connection:
+    name: Analytics
+    fqn: 57cc6155-5118-4888-9ba4-c1c0c65ba088
+  columns:
+  - name: Case ID
+    db_column_name: Case ID
+    properties:
+      column_type: ATTRIBUTE
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Jira ID
+    db_column_name: Jira ID
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: INT64
+  joins_with:
+  - name: FK_CASE_JIRA_SCAL_BRIDGE
+    destination:
+      name: SFDC_CASE
+      fqn: 470a6c78-7d32-4266-bde6-f8ee715d51d5
+    "on": "[SFDC_CASE_JIRA_SCAL_BRIDGE::Case ID] = [SFDC_CASE::Case ID]"
+    type: INNER
+  - name: FK_JIRA_SCAL_CASE_BRIDGE
+    destination:
+      name: JIRA_SCAL_ISSUES
+      fqn: 743cbdd3-6690-45e4-a347-b356396d16bd
+    "on": "[SFDC_CASE_JIRA_SCAL_BRIDGE::Jira ID] = [JIRA_SCAL_ISSUES::JIRA SCAL ID]"
+    type: INNER
+  - name: FK_SCAL_BRIDGE_CLOUD
+    destination:
+      name: JIRA_CLOUD_ISSUES
+      fqn: 71ab8bea-18a7-48b1-bcf6-abed21c1e5ec
+    "on": "[SFDC_CASE_JIRA_SCAL_BRIDGE::Jira ID] = [JIRA_CLOUD_ISSUES::JIRA CLOUD ID]"
+    type: INNER
+  properties:
+    sage_config:
+      is_sage_enabled: true

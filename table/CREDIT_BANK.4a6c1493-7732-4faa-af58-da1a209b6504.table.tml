@@ -1,0 +1,1200 @@
+guid: 4a6c1493-7732-4faa-af58-da1a209b6504
+table:
+  name: CREDIT_BANK
+  db: GTM_DB
+  schema: ALL_METRIC_OBJECTS
+  db_table: CREDIT_BANK
+  connection:
+    name: Analytics
+    fqn: 57cc6155-5118-4888-9ba4-c1c0c65ba088
+  columns:
+  - name: CB Created Date
+    db_column_name: CB Created Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Opportunity ID
+    db_column_name: Opportunity ID
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Account Name
+    db_column_name: Account Name
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 3 Comments
+    db_column_name: Term 3 Comments
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 1 Comments
+    db_column_name: Term 1 Comments
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 1 Free Months/Unlimited Credits
+    db_column_name: Term 1 Free Months/Unlimited Credits
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CB Created By
+    db_column_name: CB Created By
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 2 Comments
+    db_column_name: Term 2 Comments
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CB Created By ID
+    db_column_name: CB Created By ID
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CB Last Updated Date
+    db_column_name: CB Last Updated Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: CB Last Updated By
+    db_column_name: CB Last Updated By
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 4 Comments
+    db_column_name: Term 4 Comments
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 5 Comments
+    db_column_name: Term 5 Comments
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Account ID
+    db_column_name: Account ID
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CB ID
+    db_column_name: CB ID
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CB Last Updated By ID
+    db_column_name: CB Last Updated By ID
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CB Term End Date
+    db_column_name: CB Term End Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: CB Term Start Date
+    db_column_name: CB Term Start Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Cluster UUID
+    db_column_name: Cluster UUID
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 1 Actual Credits Consumed
+    db_column_name: Term 1 Actual Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Actual Credits Consumed
+    db_column_name: Term 5 Actual Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Actual Credits Consumed
+    db_column_name: Term 4 Actual Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Actual Credits Consumed
+    db_column_name: Term 3 Actual Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term Free Actual Credits Consumed
+    db_column_name: Term Free Actual Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Actual Credits Consumed
+    db_column_name: Term 2 Actual Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: CB Product Offering
+    db_column_name: CB Product Offering
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Overall Target vs Actual Burn Rate
+    db_column_name: Overall Target vs Actual Burn Rate
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Current Term Target vs Actual Burn Rate
+    db_column_name: Current Term Target vs Actual Burn Rate
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Actual Burn Rate Per Day
+    db_column_name: Term 5 Actual Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Credits Purchased
+    db_column_name: Term 1 Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Current Term
+    db_column_name: Current Term
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Overall Actual Burn Rate Per Day
+    db_column_name: Overall Actual Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Burn Status
+    db_column_name: Term 5 Burn Status
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 2 Credits Purchased
+    db_column_name: Term 2 Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term1 Free Months/Unlimited Credits
+    db_column_name: Term1 Free Months/Unlimited Credits
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: BOOL
+  - name: Term 5 Target Burn Rate Per Day
+    db_column_name: Term 5 Target Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Actual Burn Rate Per Day
+    db_column_name: Term 3 Actual Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Burn Status
+    db_column_name: Term 4 Burn Status
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 4 Target Burn Rate Per Day
+    db_column_name: Term 4 Target Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Actual Burn Rate Per Day
+    db_column_name: Term 1 Actual Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Target Burn Rate Per Day
+    db_column_name: Term 3 Target Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Overall Burn Status
+    db_column_name: Overall Burn Status
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 2 Target Burn Rate Per Day
+    db_column_name: Term 2 Target Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Current Term Actual Burn Rate Per Day
+    db_column_name: Current Term Actual Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Overall Target Burn Rate Per Day
+    db_column_name: Overall Target Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Current Term Burn Status
+    db_column_name: Current Term Burn Status
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 1 Burn Status
+    db_column_name: Term 1 Burn Status
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Current Term Target Burn Rate Per Day
+    db_column_name: Current Term Target Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Target Burn Rate Per Day
+    db_column_name: Term 1 Target Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Duration
+    db_column_name: Term 2 Duration
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: Term 1 Duration
+    db_column_name: Term 1 Duration
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: Term 4 Duration
+    db_column_name: Term 4 Duration
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: CB Number of Terms
+    db_column_name: CB Number of Terms
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 2 Burn Status
+    db_column_name: Term 2 Burn Status
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 3 Burn Status
+    db_column_name: Term 3 Burn Status
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Term 5 Duration
+    db_column_name: Term 5 Duration
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: Term 4 Credits Purchased
+    db_column_name: Term 4 Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Actual Burn Rate Per Day
+    db_column_name: Term 4 Actual Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Credits Purchased
+    db_column_name: Term 3 Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Duration
+    db_column_name: Term 3 Duration
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: Term 2 Actual Burn Rate Per Day
+    db_column_name: Term 2 Actual Burn Rate Per Day
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Credits Purchased
+    db_column_name: Term 5 Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Account CS Name
+    db_column_name: Account CS Name
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Opportunity Name
+    db_column_name: Opportunity Name
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Account Owner Name
+    db_column_name: Account Owner Name
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Account Status
+    db_column_name: Account Status
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Account Segment
+    db_column_name: Account Segment
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Account Subsegment
+    db_column_name: Account Subsegment
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Account Owner Team
+    db_column_name: Account Owner Team
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Account Owner Role
+    db_column_name: Account Owner Role
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Account Customer Date
+    db_column_name: Account Customer Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: CB Name
+    db_column_name: CB Name
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Record Type
+    db_column_name: Record Type
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CB Status
+    db_column_name: CB Status
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Credits Shared With Clusters
+    db_column_name: Credits Shared With Clusters
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: VARCHAR
+  - name: Credit Rollover Previous Contract
+    db_column_name: Credit Rollover Previous Contract
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Free Months Credits Consumed
+    db_column_name: Free Months Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term Free Credits Start Date
+    db_column_name: Term Free Credits Start Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term Free Credits End Date
+    db_column_name: Term Free Credits End Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 1 Flexible Credits Purchased
+    db_column_name: Term 1 Flexible Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Flexible Credits Consumed
+    db_column_name: Term 1 Flexible Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Flexible Credit Balance
+    db_column_name: Term 1 Flexible Credit Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Rollover of Unused Credits
+    db_column_name: Term 1 Rollover of Unused Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Free Credits
+    db_column_name: Term 1 Free Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Free Credits Consumed
+    db_column_name: Term 1 Free Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Free Credits Balance
+    db_column_name: Term 1 Free Credits Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Base Credits
+    db_column_name: Term 1 Base Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Base Credits Consumed
+    db_column_name: Term 1 Base Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Base Credits Balance
+    db_column_name: Term 1 Base Credits Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Base Rollover Balance
+    db_column_name: Term 1 Base Rollover Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Rollover Credits Consumed
+    db_column_name: Term 1 Rollover Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Discovery Credits
+    db_column_name: Term 1 Discovery Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Discovery Credits Consumed
+    db_column_name: Term 1 Discovery Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Discovery Credits Balance
+    db_column_name: Term 1 Discovery Credits Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 1 Start Date
+    db_column_name: Term 1 Start Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 1 End Date
+    db_column_name: Term 1 End Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 2 Flexible Credits Purchased
+    db_column_name: Term 2 Flexible Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Flexible Credits Consumed
+    db_column_name: Term 2 Flexible Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Flexible Credit Balance
+    db_column_name: Term 2 Flexible Credit Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Rollover Of Unused Credits
+    db_column_name: Term 2 Rollover Of Unused Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Base Credits
+    db_column_name: Term 2 Base Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Base Credits Consumed
+    db_column_name: Term 2 Base Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Base Credits Balance
+    db_column_name: Term 2 Base Credits Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Base Rollover Balance
+    db_column_name: Term 2 Base Rollover Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Rollover Credits Consumed
+    db_column_name: Term 2 Rollover Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 2 Start Date
+    db_column_name: Term 2 Start Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 2 End Date
+    db_column_name: Term 2 End Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 3 Flexible Credits Purchased
+    db_column_name: Term 3 Flexible Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Flexible Credits Consumed
+    db_column_name: Term 3 Flexible Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Flexible Credit Balance
+    db_column_name: Term 3 Flexible Credit Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Rollover Of Unused Credits
+    db_column_name: Term 3 Rollover Of Unused Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Base Credits
+    db_column_name: Term 3 Base Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Base Credits Consumed
+    db_column_name: Term 3 Base Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Base Credits Balance
+    db_column_name: Term 3 Base Credits Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Base Rollover Balance
+    db_column_name: Term 3 Base Rollover Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Rollover Credits Consumed
+    db_column_name: Term 3 Rollover Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 3 Start Date
+    db_column_name: Term 3 Start Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 3 End Date
+    db_column_name: Term 3 End Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 4 Flexible Credits Purchased
+    db_column_name: Term 4 Flexible Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Flexible Credits Consumed
+    db_column_name: Term 4 Flexible Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Flexible Credit Balance
+    db_column_name: Term 4 Flexible Credit Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Rollover Of Unused Credits
+    db_column_name: Term 4 Rollover Of Unused Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Base Credits
+    db_column_name: Term 4 Base Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Base Credits Consumed
+    db_column_name: Term 4 Base Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Base Credits Balance
+    db_column_name: Term 4 Base Credits Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Base Rollover Balance
+    db_column_name: Term 4 Base Rollover Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Rollover Credits Consumed
+    db_column_name: Term 4 Rollover Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 4 Start Date
+    db_column_name: Term 4 Start Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 4 End Date
+    db_column_name: Term 4 End Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 5 Flexible Credits Purchased
+    db_column_name: Term 5 Flexible Credits Purchased
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Flexible Credits Consumed
+    db_column_name: Term 5 Flexible Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Flexible Credit Balance
+    db_column_name: Term 5 Flexible Credit Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Rollover Of Unused Credits
+    db_column_name: Term 5 Rollover Of Unused Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Base Credits
+    db_column_name: Term 5 Base Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Base Credits Consumed
+    db_column_name: Term 5 Base Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Base Credits Balance
+    db_column_name: Term 5 Base Credits Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Base Rollover Balance
+    db_column_name: Term 5 Base Rollover Balance
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Rollover Credits Consumed
+    db_column_name: Term 5 Rollover Credits Consumed
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Term 5 Start Date
+    db_column_name: Term 5 Start Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Term 5 End Date
+    db_column_name: Term 5 End Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DATE
+  - name: Consumption - Time Based Session Window
+    db_column_name: Consumption - Time Based Session Window
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Consumption Monthly Capped Credits
+    db_column_name: Consumption Monthly Capped Credits
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  - name: Consumption Credits Per Minute
+    db_column_name: Consumption Credits Per Minute
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      value_casing: UNKNOWN
+    db_column_properties:
+      data_type: DOUBLE
+  joins_with:
+  - name: CREDIT_BANK_to_SFDC_CLUSTER
+    destination:
+      name: SFDC_CLUSTER
+      fqn: 1a108b00-02ff-431e-9066-5a85f3b1fbd9
+    "on": "[CREDIT_BANK::Cluster UUID] = [SFDC_CLUSTER::Cluster UUID]"
+    type: INNER
+  - name: SFDC_QUOTE_to_CREDIT_BANK
+    destination:
+      name: SFDC_QUOTE
+      fqn: 7a9d59bb-3472-45c8-891f-eefed51bc691
+    "on": "[CREDIT_BANK::Opportunity ID] = [SFDC_QUOTE::Quote Opportunity ID]"
+    type: INNER
+  properties:
+    sage_config:
+      is_sage_enabled: true

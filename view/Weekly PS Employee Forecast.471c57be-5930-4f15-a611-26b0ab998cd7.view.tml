@@ -1,0 +1,67 @@
+guid: 471c57be-5930-4f15-a611-26b0ab998cd7
+view:
+  name: Weekly PS Employee Forecast
+  tables:
+  - id: SFDC_PROJECT_ESTIMATE_VS_ACTUALS
+    name: SFDC_PROJECT_ESTIMATE_VS_ACTUALS
+    fqn: c3ba49af-3642-4ea0-8509-ab87b2966df4
+  search_query: "[Project Estimate End Date] [Project Estimate End Date].detailed [Project Estimate Time Period Type] = 'week' [Project Estimate Estimated Hours] [Project ID] [Project Estimate Resource]"
+  view_columns:
+  - name: Forecast Weekly End Date
+    search_output_column: Project Estimate End Date
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  - name: Project ID
+    search_output_column: Project ID
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  - name: Resource ID
+    search_output_column: Project Estimate Resource
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  - name: Forecasted Hours
+    search_output_column: Total Project Estimate Estimated Hours
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  joins_with:
+  - name: EMPLOYEE_FORECAST_END_DATE to DIM_CALENDAR_END_DATE
+    destination:
+      name: DIM_CALENDAR
+      fqn: 6ce3bd86-f614-4d19-b539-200b416af4be
+    "on": "[Weekly PS Employee Forecast::Forecast Weekly End Date] = [DIM_CALENDAR::End of Week]"
+    type: INNER
+  - name: EMPLOYEE_FORECAST_END_DATE to DIM_PS_CALENDAR_END_DATE
+    destination:
+      name: DIM_PS_CALENDAR
+      fqn: 5c1fc5e2-6d53-4c94-a759-9affbf384fc4
+    "on": "[Weekly PS Employee Forecast::Forecast Weekly End Date] = [DIM_PS_CALENDAR::End of Week]"
+    type: INNER
+  - name: EMPLOYEE_FORECAST_PROJECT to SFDC_PROJECT
+    destination:
+      name: SFDC_PROJECT
+      fqn: 27102553-8120-489a-81ed-56d63212a411
+    "on": "[Weekly PS Employee Forecast::Project ID] = [SFDC_PROJECT::Project ID]"
+    type: INNER
+  - name: FORECAST DATE to DATE
+    destination:
+      name: DIM_CALENDAR
+      fqn: 6ce3bd86-f614-4d19-b539-200b416af4be
+    "on": "[Weekly PS Employee Forecast::Forecast Weekly End Date] = [DIM_CALENDAR::Today]"
+    type: INNER
+  - name: FORECAST DATE to PS_DATE
+    destination:
+      name: DIM_PS_CALENDAR
+      fqn: 5c1fc5e2-6d53-4c94-a759-9affbf384fc4
+    "on": "[Weekly PS Employee Forecast::Forecast Weekly End Date] = [DIM_PS_CALENDAR::Today]"
+    type: INNER
+  - name: FORECAST_ASSIGNMENT_to_RESOURCE_EMPLOYEE_TS
+    destination:
+      name: PS_ASSIGNED_RESOURCES
+      fqn: afef41e7-e300-4a13-9dba-368d1a4b455c
+    "on": "[Weekly PS Employee Forecast::Resource ID] = [PS_ASSIGNED_RESOURCES::Resource ID] AND [Weekly PS Employee Forecast::Project ID] = [PS_ASSIGNED_RESOURCES::Project ID]"
+    type: INNER

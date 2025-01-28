@@ -1,0 +1,93 @@
+guid: 1b74cf8f-96e6-42b8-8aab-01bb52302af8
+liveboard:
+  name: sangeetha's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Account Count
+      tables:
+      - id: GTM
+        name: GTM
+        fqn: 54beb173-d755-42e0-8f73-4d4ec768114f
+      search_query: "[Account Count] [Account Cluster Count] [% Cases]"
+      answer_columns:
+      - name: Account Count
+      - name: Total % Cases
+      - name: Total Account Cluster Count
+      table:
+        table_columns:
+        - column_id: Account Count
+          show_headline: false
+        - column_id: Total % Cases
+          show_headline: false
+        - column_id: Total Account Cluster Count
+          show_headline: false
+        ordered_column_ids:
+        - Account Count
+        - Total Account Cluster Count
+        - Total % Cases
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Account Count
+        - column_id: Total % Cases
+        - column_id: Total Account Cluster Count
+        axis_configs:
+        - "y":
+          - Account Count
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: df421065-d789-4a14-bb32-f1573116b3a0
+  - id: Viz_2
+    answer:
+      name: "Total sales, Total quantity purchased by city, county, item type_1"
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+        fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+      search_query: "[sales] [city] [county] [item type] [quantity purchased]"
+      answer_columns:
+      - name: Total quantity purchased
+      - name: Total sales
+      - name: city
+      - name: county
+      - name: item type
+      table:
+        table_columns:
+        - column_id: Total quantity purchased
+          show_headline: false
+        - column_id: Total sales
+          show_headline: false
+        - column_id: city
+          show_headline: false
+        - column_id: county
+          show_headline: false
+        - column_id: item type
+          show_headline: false
+        ordered_column_ids:
+        - city
+        - county
+        - item type
+        - Total sales
+        - Total quantity purchased
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Total quantity purchased
+        - column_id: Total sales
+        - column_id: city
+        - column_id: county
+        - column_id: item type
+        axis_configs:
+        - x:
+          - item type
+          "y":
+          - Total sales
+          - Total quantity purchased
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"city\",\"columnProperty\": {}},{\"columnId\": \"county\",\"columnProperty\": {}},{\"columnId\": \"item type\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {}},{\"columnId\": \"Total quantity purchased\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"0f04068c-3834-40e0-9093-a011708050b6\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total sales\"],\"isOpposite\": false}},{\"id\": \"84cd1fa6-3c9c-44e4-92ab-20cd45dbf821\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total quantity purchased\"],\"isOpposite\": true}},{\"id\": \"40492701-d7c3-4b8b-ba33-f3de2324a9c3\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"item type\"]}}]}"
+      display_mode: TABLE_MODE
+    viz_guid: f04d104f-3489-4a55-a6b6-046893053193
