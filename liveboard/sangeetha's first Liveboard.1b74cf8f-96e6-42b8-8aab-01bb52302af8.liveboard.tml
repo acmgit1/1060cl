@@ -95,6 +95,62 @@ liveboard:
     viz_guid: d49cfbe7-7ef2-470a-b72c-01c9c926cb3d
     note_tile:
       html_parsed_string: "<h2 class=\"theme-module__editor-h2\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">acm</span></h2><p class=\"theme-module__editor-paragraph\"><br></p><div class=\"pinboard-note-tile-module__noteTileBg editor-module__bgNode\" style=\"background-color: rgb(255, 255, 255);\"></div>"
+  - id: Viz_4
+    answer:
+      name: Total Tax by Product Type and Shipmode
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Tax] [Discount Pct] [Shipmode] [Product Type]"
+      answer_columns:
+      - name: Product Type
+      - name: Shipmode
+      - name: Total Discount Pct
+      - name: Total Tax
+        format:
+          category: CURRENCY
+          currencyFormatConfig:
+            locale: USD
+            unit: NONE
+            decimals: 0.0
+            toSeparateThousands: true
+          isCategoryEditable: true
+      table:
+        table_columns:
+        - column_id: Product Type
+          show_headline: false
+        - column_id: Shipmode
+          show_headline: false
+        - column_id: Total Discount Pct
+          show_headline: false
+        - column_id: Total Tax
+          show_headline: false
+        ordered_column_ids:
+        - Shipmode
+        - Product Type
+        - Total Tax
+        - Total Discount Pct
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Product Type\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}},{\"columnId\": \"Total Discount Pct\",\"columnProperty\": {}}]}"
+      chart:
+        type: BAR
+        chart_columns:
+        - column_id: Product Type
+        - column_id: Shipmode
+        - column_id: Total Discount Pct
+        - column_id: Total Tax
+        axis_configs:
+        - x:
+          - Product Type
+          "y":
+          - Total Tax
+          color:
+          - Shipmode
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {\"xGridlineEnabled\": true,\"yGridlineEnabled\": true},\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"legendPosition\": \"RIGHT_LEGEND\"},\"columnProperties\": [{\"columnId\": \"Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Discount Pct\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Product Type\",\"columnProperty\": {\"customProps\": \"{\\\"advancedProperties\\\":[]}\"}}],\"axisProperties\": [{\"id\": \"a84c758f-9752-4055-92b4-edca18f0f315\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Product Type\"]}},{\"id\": \"a2b728a9-322b-468f-bb28-bfff556444b9\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"format\": {\"category\": \"CURRENCY\",\"currencyFormatConfig\": {\"locale\": \"USD\",\"unit\": \"AUTO\",\"decimals\": 0.0,\"toSeparateThousands\": true},\"isCategoryEditable\": true},\"yAxisRange\": {},\"isOpposite\": false}}],\"seriesColors\": [{\"serieName\": \"fob\",\"color\": \"#FCC838\"},{\"serieName\": \"mail\",\"color\": \"#82DFE9\"},{\"serieName\": \"rail\",\"color\": \"#48D1E0\"},{\"serieName\": \"ship\",\"color\": \"#71A1F4\"},{\"serieName\": \"truck\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Tax\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Discount Pct\",\"color\": \"#2E75F0\"},{\"serieName\": \"air\",\"color\": \"#F04152\"}],\"systemSeriesColors\": [{\"serieName\": \"air\",\"color\": \"#06BF7F\"},{\"serieName\": \"fob\",\"color\": \"#FCC838\"},{\"serieName\": \"mail\",\"color\": \"#82DFE9\"},{\"serieName\": \"rail\",\"color\": \"#48D1E0\"},{\"serieName\": \"ship\",\"color\": \"#71A1F4\"},{\"serieName\": \"truck\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Tax\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Discount Pct\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: a403e7fa-e563-44d5-be57-f86a2212bf9e
   layout:
     tabs:
     - name: acm
@@ -115,4 +171,5 @@ liveboard:
         "y": 0
         height: 4
         width: 3
+      - visualization_id: Viz_4
       id: 9fa59812-518e-45e9-8464-bfdfd25206f6
