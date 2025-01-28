@@ -1,0 +1,47 @@
+guid: 7f5a6c1a-c550-4bdd-bc61-8e21920b1ae0
+answer:
+  name: locale acm
+  tables:
+  - id: Locale_Check - Copy of Sheet1
+    name: Locale_Check - Copy of Sheet1
+    fqn: 718e56c3-95da-460b-b1f1-56fe8a565cb0
+  search_query: "[name] [age] [incentive] [deduction]"
+  answer_columns:
+  - name: Total age
+  - name: Total deduction
+  - name: Total incentive
+  - name: name
+  table:
+    table_columns:
+    - column_id: Total age
+      show_headline: false
+    - column_id: Total deduction
+      show_headline: false
+    - column_id: Total incentive
+      show_headline: false
+    - column_id: name
+      show_headline: false
+    ordered_column_ids:
+    - name
+    - Total age
+    - Total incentive
+    - Total deduction
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: COLUMN
+    chart_columns:
+    - column_id: Total age
+    - column_id: Total deduction
+    - column_id: Total incentive
+    - column_id: name
+    axis_configs:
+    - x:
+      - name
+      "y":
+      - Total age
+      - Total incentive
+      - Total deduction
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total age\",\"columnProperty\": {}},{\"columnId\": \"Total incentive\",\"columnProperty\": {}},{\"columnId\": \"Total deduction\",\"columnProperty\": {}},{\"columnId\": \"name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"f3710210-9262-4977-bb78-8598bc4fa9aa\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total age\"],\"isOpposite\": false}},{\"id\": \"e4713f4f-f689-42bd-ab62-39a373e15cc0\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total incentive\"],\"isOpposite\": true}},{\"id\": \"995dbad0-9169-4c6f-9be1-b9f257f48840\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total deduction\"],\"isOpposite\": true}},{\"id\": \"913f3dd5-b4db-4986-b572-530dac1b6fa2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"name\"]}}],\"systemSeriesColors\": [{\"serieName\": \"be43b740-1d69-4130-87fb-9dc59cc6747c\",\"color\": \"#FCC838\"},{\"serieName\": \"b328e289-616e-4dd2-a734-b6861197e3ea\",\"color\": \"#48D1E0\"},{\"serieName\": \"c9ebc254-9e6d-4d0b-995c-28175239ae63\",\"color\": \"#2E75F0\"}]}"
+  display_mode: TABLE_MODE
