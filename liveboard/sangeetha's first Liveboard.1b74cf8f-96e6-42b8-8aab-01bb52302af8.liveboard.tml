@@ -91,3 +91,19 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"city\",\"columnProperty\": {}},{\"columnId\": \"county\",\"columnProperty\": {}},{\"columnId\": \"item type\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {}},{\"columnId\": \"Total quantity purchased\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"0f04068c-3834-40e0-9093-a011708050b6\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total sales\"],\"isOpposite\": false}},{\"id\": \"84cd1fa6-3c9c-44e4-92ab-20cd45dbf821\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total quantity purchased\"],\"isOpposite\": true}},{\"id\": \"40492701-d7c3-4b8b-ba33-f3de2324a9c3\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"item type\"]}}]}"
       display_mode: TABLE_MODE
     viz_guid: f04d104f-3489-4a55-a6b6-046893053193
+  layout:
+    tabs:
+    - name: acm
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 4
+        width: 3
+      - visualization_id: Viz_2
+        x: 0
+        "y": 4
+        height: 8
+        width: 12
+      id: 9fa59812-518e-45e9-8464-bfdfd25206f6
