@@ -1622,17 +1622,6 @@ liveboard:
     is_mandatory: false
     is_single_value: false
     display_name: ""
-  - column:
-    - Product Detail Id
-    oper: in
-    values:
-    - pr_dtl_1
-    - pr_dtl_10
-    - pr_dtl_14
-    - pr_dtl_2
-    is_mandatory: false
-    is_single_value: false
-    display_name: ""
   layout:
     tabs:
     - name: Tab1
@@ -1806,6 +1795,4 @@ liveboard:
   - name: Product Type
     type: FILTER
   - name: Marital Status
-    type: FILTER
-  - name: Product Detail Id
     type: FILTER
