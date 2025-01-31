@@ -1,6 +1,6 @@
 guid: 36ada151-60b3-4ea7-88bc-1c56766baa9a
 liveboard:
-  name: MyTestPin_Param
+  name: MyTestPin_Param1
   visualizations:
   - id: Viz_1
     answer:
@@ -71,6 +71,12 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C_CITY\",\"columnProperty\": {}},{\"columnId\": \"Total for\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ad575b0a-b862-49ea-b0c7-e1bd2a13fdc7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total for\"],\"isOpposite\": false}},{\"id\": \"dac4ee45-925d-4a7b-810c-2c1848363aad\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C_CITY\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total for\",\"color\": \"#FCC838\"}]}"
       display_mode: CHART_MODE
     viz_guid: e17437bb-a801-481e-ab65-17ec3ccd932d
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: LARGE
+    - visualization_id: Viz_2
+      size: MEDIUM
   parameter_overrides:
   - key: 2c77e8b5-9b2a-4488-892e-4294728409bf
     value:
