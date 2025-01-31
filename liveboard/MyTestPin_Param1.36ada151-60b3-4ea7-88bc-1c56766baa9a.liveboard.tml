@@ -81,6 +81,7 @@ liveboard:
   - key: 2c77e8b5-9b2a-4488-892e-4294728409bf
     value:
       name: testRLS::para1
+      override_value: "3"
   ordered_chips:
   - name: testRLS::para1
     type: PARAMETER
