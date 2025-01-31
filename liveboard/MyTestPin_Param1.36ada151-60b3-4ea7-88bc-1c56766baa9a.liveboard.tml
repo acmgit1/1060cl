@@ -71,47 +71,10 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C_CITY\",\"columnProperty\": {}},{\"columnId\": \"Total for\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ad575b0a-b862-49ea-b0c7-e1bd2a13fdc7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total for\"],\"isOpposite\": false}},{\"id\": \"dac4ee45-925d-4a7b-810c-2c1848363aad\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C_CITY\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total for\",\"color\": \"#FCC838\"}]}"
       display_mode: CHART_MODE
     viz_guid: e17437bb-a801-481e-ab65-17ec3ccd932d
-  - id: Viz_3
-    answer:
-      name: TestKPIPin
-      tables:
-      - id: LINEORDER-jan30
-        name: LINEORDER-jan30
-        fqn: 4eb9ad15-b2ab-4991-b25b-05c129120f28
-      search_query: "[LO_DISCOUNT] [LO_COMMITDATE] [LO_COMMITDATE].quarterly"
-      answer_columns:
-      - name: Quarter(LO_COMMITDATE)
-      - name: Total LO_DISCOUNT
-      table:
-        table_columns:
-        - column_id: Quarter(LO_COMMITDATE)
-          show_headline: false
-        - column_id: Total LO_DISCOUNT
-          show_headline: false
-        ordered_column_ids:
-        - Quarter(LO_COMMITDATE)
-        - Total LO_DISCOUNT
-        client_state: ""
-      chart:
-        type: KPI
-        chart_columns:
-        - column_id: Quarter(LO_COMMITDATE)
-        - column_id: Total LO_DISCOUNT
-        axis_configs:
-        - x:
-          - Quarter(LO_COMMITDATE)
-          "y":
-          - Total LO_DISCOUNT
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Quarter(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_DISCOUNT\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"0ce91ab2-0799-4314-81e7-feb0badec6e0\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_DISCOUNT\"],\"isOpposite\": false}},{\"id\": \"116693a7-3831-4dbb-a5a8-892202d026c3\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(LO_COMMITDATE)\"]}}]}"
-      display_mode: CHART_MODE
-    viz_guid: 3a4c214c-f221-47cf-9ce0-b9510cd3167a
   layout:
     tiles:
     - visualization_id: Viz_1
       size: MEDIUM_SMALL
-    - visualization_id: Viz_3
-      size: SMALL
     - visualization_id: Viz_2
       size: MEDIUM
   parameter_overrides:
