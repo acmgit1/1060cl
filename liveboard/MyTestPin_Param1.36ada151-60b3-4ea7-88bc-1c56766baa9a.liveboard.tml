@@ -71,6 +71,46 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C_CITY\",\"columnProperty\": {}},{\"columnId\": \"Total for\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ad575b0a-b862-49ea-b0c7-e1bd2a13fdc7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total for\"],\"isOpposite\": false}},{\"id\": \"dac4ee45-925d-4a7b-810c-2c1848363aad\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C_CITY\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total for\",\"color\": \"#FCC838\"}]}"
       display_mode: CHART_MODE
     viz_guid: e17437bb-a801-481e-ab65-17ec3ccd932d
+  - id: Viz_3
+    answer:
+      name: Total LO_ORDERKEY by Quarterly LO_COMMITDATE - French-cc-nilanjan
+      tables:
+      - id: "Golden_Worksheet (V1) [Lineorder-customer-part-date]-2"
+        name: "Golden_Worksheet (V1) [Lineorder-customer-part-date]-2"
+        fqn: cf6ac2d3-01ea-44ad-9e2c-247ffa8a3bc1
+      search_query: "[LO_ORDERKEY] [LO_DISCOUNT] [LO_COMMITDATE] [LO_COMMITDATE].quarterly"
+      answer_columns:
+      - name: Quarter(LO_COMMITDATE)
+      - name: Total LO_DISCOUNT
+      - name: Total LO_ORDERKEY
+      table:
+        table_columns:
+        - column_id: Quarter(LO_COMMITDATE)
+          show_headline: false
+        - column_id: Total LO_DISCOUNT
+          show_headline: false
+        - column_id: Total LO_ORDERKEY
+          show_headline: false
+        ordered_column_ids:
+        - Quarter(LO_COMMITDATE)
+        - Total LO_ORDERKEY
+        - Total LO_DISCOUNT
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Quarter(LO_COMMITDATE)
+        - column_id: Total LO_DISCOUNT
+        - column_id: Total LO_ORDERKEY
+        axis_configs:
+        - x:
+          - Quarter(LO_COMMITDATE)
+          "y":
+          - Total LO_ORDERKEY
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Quarter(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_ORDERKEY\",\"columnProperty\": {}},{\"columnId\": \"Total LO_DISCOUNT\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a0211755-fd5d-4b20-811b-e3c274974fc4\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_ORDERKEY\"],\"isOpposite\": false}},{\"id\": \"c3eec0c7-4365-47f8-8e80-13ec1dfcbb23\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(LO_COMMITDATE)\"]}}]}"
+      display_mode: CHART_MODE
+    viz_guid: 64b65f7a-b24d-45a3-95d7-8ac8b79d91ff
   layout:
     tiles:
     - visualization_id: Viz_1

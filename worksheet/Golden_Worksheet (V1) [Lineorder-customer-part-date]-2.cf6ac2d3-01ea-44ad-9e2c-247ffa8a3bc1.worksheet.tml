@@ -551,6 +551,21 @@ model:
     sage_config:
       is_sage_enabled: true
   parameters:
+  - id: dab9281a-f8c5-4ca1-99e8-12501b636c24
+    name: Date Param
+    data_type: DATE
+    default_value: 01/07/1994
+    list_config:
+      list_choice:
+      - value: 01/07/1994
+        display_name: ''
+      - value: 01/07/1995
+        display_name: ''
+      - value: 01/07/1996
+        display_name: ''
+      - value: 01/07/1997
+        display_name: ''
+    description: ''
   - id: 5a38c155-9616-4f4c-9aef-9d4b4a52f292
     name: Shipmode Param
     data_type: CHAR
