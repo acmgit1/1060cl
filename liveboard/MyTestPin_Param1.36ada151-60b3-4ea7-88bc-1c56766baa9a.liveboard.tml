@@ -97,6 +97,7 @@ liveboard:
         - C_NATION
         - Total FxParam
         client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"C_NATION\",\"columnProperty\": {}},{\"columnId\": \"Total FxParam\",\"columnProperty\": {}}]}"
       chart:
         type: COLUMN
         chart_columns:
@@ -108,6 +109,7 @@ liveboard:
           "y":
           - Total FxParam
         client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"C_NATION\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"Total FxParam\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"8a20b093-cb91-4697-bb2c-2b320d3ab723\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total FxParam\"],\"isOpposite\": false}},{\"id\": \"4d1ae3b5-2f4b-48b2-bf69-67bfcac86931\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C_NATION\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total FxParam\",\"color\": \"#FF8142\"}]}"
       display_mode: CHART_MODE
     viz_guid: 2796de9f-d83a-4e36-8dd0-03e7d53057bf
   - id: Viz_4
