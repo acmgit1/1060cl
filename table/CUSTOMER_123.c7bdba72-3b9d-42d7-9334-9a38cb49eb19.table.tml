@@ -1,0 +1,85 @@
+guid: c7bdba72-3b9d-42d7-9334-9a38cb49eb19
+table:
+  name: CUSTOMER_123
+  db: NEBULADEV
+  schema: TPCH5K_falcon_default_schema
+  db_table: CUSTOMER
+  connection:
+    name: TestS
+    fqn: 9e11d040-1b1d-486d-8dd4-c1f843e98be9
+  columns:
+  - name: C_CUSTKEY
+    db_column_name: C_CUSTKEY
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+      is_hidden: true
+    db_column_properties:
+      data_type: INT64
+  - name: C_NAME
+    db_column_name: C_NAME
+    properties:
+      column_type: ATTRIBUTE
+      is_hidden: true
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_ADDRESS
+    db_column_name: C_ADDRESS
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_CITY
+    db_column_name: C_CITY
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_NATION
+    db_column_name: C_NATION
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_REGION
+    db_column_name: C_REGION
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_PHONE
+    db_column_name: C_PHONE
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_MKTSEGMENT
+    db_column_name: C_MKTSEGMENT
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_NEWCOL
+    db_column_name: C_NEWCOL
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  rls_rules:
+    tables:
+    - name: CUSTOMER_123
+      fqn: c7bdba72-3b9d-42d7-9334-9a38cb49eb19
+    table_paths:
+    - id: CUSTOMER_123_1
+      table: CUSTOMER_123
+      column:
+      - C_NAME
+      - C_PHONE
+      - C_CITY
+    rules:
+    - name: test
+      expr: "[CUSTOMER_123_1::C_CITY] = concat ( [CUSTOMER_123_1::C_NAME] , [CUSTOMER_123_1::C_PHONE] )"
+  properties:
+    sage_config:
+      is_sage_enabled: false

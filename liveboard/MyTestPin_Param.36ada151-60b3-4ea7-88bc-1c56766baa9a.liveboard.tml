@@ -1,0 +1,80 @@
+guid: 36ada151-60b3-4ea7-88bc-1c56766baa9a
+liveboard:
+  name: MyTestPin_Param
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total for by C_CITY
+      tables:
+      - id: testRLS
+        name: testRLS
+        fqn: 4b7d428e-1742-4329-ab7a-197a112d04ff
+      search_query: "[for] [C_CITY]"
+      answer_columns:
+      - name: C_CITY
+      - name: Total for
+      table:
+        table_columns:
+        - column_id: C_CITY
+          show_headline: false
+        - column_id: Total for
+          show_headline: false
+        ordered_column_ids:
+        - C_CITY
+        - Total for
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: C_CITY
+        - column_id: Total for
+        axis_configs:
+        - x:
+          - C_CITY
+          "y":
+          - Total for
+        client_state: ""
+      display_mode: TABLE_MODE
+    viz_guid: 477b470d-dae9-4d15-a476-23add57f4003
+  - id: Viz_2
+    answer:
+      name: Total for by C_CITY
+      tables:
+      - id: testRLS
+        name: testRLS
+        fqn: 4b7d428e-1742-4329-ab7a-197a112d04ff
+      search_query: "[for] [C_CITY]"
+      answer_columns:
+      - name: C_CITY
+      - name: Total for
+      table:
+        table_columns:
+        - column_id: C_CITY
+          show_headline: false
+        - column_id: Total for
+          show_headline: false
+        ordered_column_ids:
+        - C_CITY
+        - Total for
+        client_state: ""
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: C_CITY
+        - column_id: Total for
+        axis_configs:
+        - x:
+          - C_CITY
+          "y":
+          - Total for
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C_CITY\",\"columnProperty\": {}},{\"columnId\": \"Total for\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ad575b0a-b862-49ea-b0c7-e1bd2a13fdc7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total for\"],\"isOpposite\": false}},{\"id\": \"dac4ee45-925d-4a7b-810c-2c1848363aad\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C_CITY\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total for\",\"color\": \"#FCC838\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: e17437bb-a801-481e-ab65-17ec3ccd932d
+  parameter_overrides:
+  - key: 2c77e8b5-9b2a-4488-892e-4294728409bf
+    value:
+      name: testRLS::para1
+  ordered_chips:
+  - name: testRLS::para1
+    type: PARAMETER

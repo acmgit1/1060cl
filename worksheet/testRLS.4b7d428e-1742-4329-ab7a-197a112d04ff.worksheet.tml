@@ -1,0 +1,111 @@
+guid: 4b7d428e-1742-4329-ab7a-197a112d04ff
+worksheet:
+  name: testRLS
+  tables:
+  - name: CUSTOMER_123
+    fqn: c7bdba72-3b9d-42d7-9334-9a38cb49eb19
+  table_paths:
+  - id: CUSTOMER_123_1
+    table: CUSTOMER_123
+  formulas:
+  - name: Fx2
+    expr: "if ( [Fx1_updated] > 1000 ) then true else false"
+    was_auto_generated: false
+  - name: Fx1_updated
+    expr: "average_if ( [CUSTOMER_123_1::C_CITY] = \"france\" , [CUSTOMER_123_1::C_CUSTKEY] )"
+    was_auto_generated: false
+  - name: for
+    expr: "[para1] + [CUSTOMER_123_1::C_CUSTKEY]"
+    was_auto_generated: false
+  - name: test
+    expr: "[para12] + [para1]"
+    was_auto_generated: false
+  worksheet_columns:
+  - name: C_CUSTKEY
+    column_id: CUSTOMER_123_1::C_CUSTKEY
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: C_NAME
+    column_id: CUSTOMER_123_1::C_NAME
+    properties:
+      column_type: ATTRIBUTE
+  - name: C_ADDRESS
+    column_id: CUSTOMER_123_1::C_ADDRESS
+    properties:
+      column_type: ATTRIBUTE
+  - name: C_CITY
+    column_id: CUSTOMER_123_1::C_CITY
+    properties:
+      column_type: ATTRIBUTE
+  - name: C_NATION
+    column_id: CUSTOMER_123_1::C_NATION
+    properties:
+      column_type: ATTRIBUTE
+  - name: C_REGION
+    column_id: CUSTOMER_123_1::C_REGION
+    properties:
+      column_type: ATTRIBUTE
+      custom_order:
+      - europe
+      - middle east
+      - asia
+      - africa
+      - america
+  - name: C_PHONE
+    column_id: CUSTOMER_123_1::C_PHONE
+    properties:
+      column_type: ATTRIBUTE
+  - name: C_MKTSEGMENT
+    column_id: CUSTOMER_123_1::C_MKTSEGMENT
+    properties:
+      column_type: ATTRIBUTE
+  - name: C_NEWCOL
+    column_id: CUSTOMER_123_1::C_NEWCOL
+    properties:
+      column_type: ATTRIBUTE
+  - name: for
+    formula_id: for
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: test
+    formula_id: test
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Fx1_updated
+    formula_id: Fx1_updated
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Fx2
+    formula_id: Fx2
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  properties:
+    is_bypass_rls: false
+    join_progressive: true
+    sage_config:
+      is_sage_enabled: false
+  parameters:
+  - id: 5416dd3b-ded8-4fd3-a522-03c468d9f094
+    name: P1
+    data_type: INT64
+    default_value: "1000"
+    description: ""
+  - id: 2c77e8b5-9b2a-4488-892e-4294728409bf
+    name: para1
+    data_type: INT64
+    default_value: "2"
+    description: ""
+  - id: f1274b7b-c3eb-42ac-a658-96be42d250b7
+    name: para12
+    data_type: INT64
+    default_value: "3"
+    description: ""
