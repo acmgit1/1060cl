@@ -34,4 +34,4 @@ table:
       expr: "[TS_STATES_1::STATE] = ts_groups"
   properties:
     sage_config:
-      is_sage_enabled: false
+      is_sage_enabled: true
