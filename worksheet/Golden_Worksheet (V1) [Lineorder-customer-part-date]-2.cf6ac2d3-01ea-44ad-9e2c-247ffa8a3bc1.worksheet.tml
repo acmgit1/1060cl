@@ -551,6 +551,17 @@ model:
     sage_config:
       is_sage_enabled: true
   parameters:
+  - id: 529886de-2a16-44de-82c3-77c293ee3fa4
+    name: Boolean
+    data_type: BOOL
+    default_value: 'true'
+    list_config:
+      list_choice:
+      - value: 'true'
+        display_name: ''
+      - value: 'false'
+        display_name: ''
+    description: ''
   - id: dab9281a-f8c5-4ca1-99e8-12501b636c24
     name: Date Param
     data_type: DATE
@@ -580,4 +591,9 @@ model:
     name: Test Param
     data_type: CHAR
     default_value: air
+    description: ''
+  - id: 0d6d2f65-9252-459b-9475-bd55d51e7527
+    name: decimal
+    data_type: DOUBLE
+    default_value: '10.1'
     description: ''

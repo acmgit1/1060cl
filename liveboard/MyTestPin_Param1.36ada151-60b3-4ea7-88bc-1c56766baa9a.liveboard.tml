@@ -4,75 +4,6 @@ liveboard:
   visualizations:
   - id: Viz_1
     answer:
-      name: Total for by C_CITY
-      tables:
-      - id: testRLS
-        name: testRLS
-        fqn: 4b7d428e-1742-4329-ab7a-197a112d04ff
-      search_query: "[for] [C_CITY]"
-      answer_columns:
-      - name: C_CITY
-      - name: Total for
-      table:
-        table_columns:
-        - column_id: C_CITY
-          show_headline: false
-        - column_id: Total for
-          show_headline: false
-        ordered_column_ids:
-        - C_CITY
-        - Total for
-        client_state: ""
-      chart:
-        type: COLUMN
-        chart_columns:
-        - column_id: C_CITY
-        - column_id: Total for
-        axis_configs:
-        - x:
-          - C_CITY
-          "y":
-          - Total for
-        client_state: ""
-      display_mode: TABLE_MODE
-    viz_guid: 477b470d-dae9-4d15-a476-23add57f4003
-  - id: Viz_2
-    answer:
-      name: Total for by C_CITY
-      tables:
-      - id: testRLS
-        name: testRLS
-        fqn: 4b7d428e-1742-4329-ab7a-197a112d04ff
-      search_query: "[for] [C_CITY]"
-      answer_columns:
-      - name: C_CITY
-      - name: Total for
-      table:
-        table_columns:
-        - column_id: C_CITY
-          show_headline: false
-        - column_id: Total for
-          show_headline: false
-        ordered_column_ids:
-        - C_CITY
-        - Total for
-        client_state: ""
-      chart:
-        type: STACKED_COLUMN
-        chart_columns:
-        - column_id: C_CITY
-        - column_id: Total for
-        axis_configs:
-        - x:
-          - C_CITY
-          "y":
-          - Total for
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C_CITY\",\"columnProperty\": {}},{\"columnId\": \"Total for\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ad575b0a-b862-49ea-b0c7-e1bd2a13fdc7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total for\"],\"isOpposite\": false}},{\"id\": \"dac4ee45-925d-4a7b-810c-2c1848363aad\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C_CITY\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total for\",\"color\": \"#FCC838\"}]}"
-      display_mode: CHART_MODE
-    viz_guid: e17437bb-a801-481e-ab65-17ec3ccd932d
-  - id: Viz_3
-    answer:
       name: Total LO_ORDERKEY by Quarterly LO_COMMITDATE - French-cc-nilanjan
       tables:
       - id: "Golden_Worksheet (V1) [Lineorder-customer-part-date]-2"
@@ -111,9 +42,9 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Quarter(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_ORDERKEY\",\"columnProperty\": {}},{\"columnId\": \"Total LO_DISCOUNT\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a0211755-fd5d-4b20-811b-e3c274974fc4\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_ORDERKEY\"],\"isOpposite\": false}},{\"id\": \"c3eec0c7-4365-47f8-8e80-13ec1dfcbb23\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(LO_COMMITDATE)\"]}}]}"
       display_mode: CHART_MODE
     viz_guid: 64b65f7a-b24d-45a3-95d7-8ac8b79d91ff
-  - id: Viz_4
+  - id: Viz_2
     answer:
-      name: Total FxParam by C_NEWCOL
+      name: Total FxParam by C_NATION
       tables:
       - id: testRLS
         name: testRLS
@@ -145,7 +76,7 @@ liveboard:
         client_state: ""
       display_mode: TABLE_MODE
     viz_guid: 8c7b478c-4bc1-4480-8066-1c7a74c4a1c8
-  - id: Viz_5
+  - id: Viz_3
     answer:
       name: Total FxParam by C_NATION
       tables:
@@ -179,7 +110,7 @@ liveboard:
         client_state: ""
       display_mode: CHART_MODE
     viz_guid: 2796de9f-d83a-4e36-8dd0-03e7d53057bf
-  - id: Viz_6
+  - id: Viz_4
     answer:
       name: Total test by C_MKTSEGMENT
       tables:
@@ -213,7 +144,7 @@ liveboard:
         client_state: ""
       display_mode: CHART_MODE
     viz_guid: f2f61dd7-55a3-4a99-abb6-34b9676665c2
-  - id: Viz_7
+  - id: Viz_5
     answer:
       name: Total test by C_MKTSEGMENT
       tables:
@@ -249,10 +180,16 @@ liveboard:
     viz_guid: 4315ff42-cd2e-465c-b3be-f73f4835c754
   layout:
     tiles:
-    - visualization_id: Viz_1
-      size: MEDIUM_SMALL
     - visualization_id: Viz_2
       size: MEDIUM
+    - visualization_id: Viz_3
+      size: MEDIUM
+    - visualization_id: Viz_5
+      size: MEDIUM
+    - visualization_id: Viz_4
+      size: MEDIUM
+    - visualization_id: Viz_1
+      size: SMALL
   parameter_overrides:
   - key: 2c77e8b5-9b2a-4488-892e-4294728409bf
     value:
