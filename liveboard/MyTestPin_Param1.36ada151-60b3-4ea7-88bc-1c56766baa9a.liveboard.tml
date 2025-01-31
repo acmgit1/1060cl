@@ -213,6 +213,40 @@ liveboard:
         client_state: ""
       display_mode: CHART_MODE
     viz_guid: f2f61dd7-55a3-4a99-abb6-34b9676665c2
+  - id: Viz_7
+    answer:
+      name: Total test by C_MKTSEGMENT
+      tables:
+      - id: testRLS
+        name: testRLS
+        fqn: 4b7d428e-1742-4329-ab7a-197a112d04ff
+      search_query: "[test] [C_MKTSEGMENT]"
+      answer_columns:
+      - name: C_MKTSEGMENT
+      - name: Total test
+      table:
+        table_columns:
+        - column_id: C_MKTSEGMENT
+          show_headline: false
+        - column_id: Total test
+          show_headline: false
+        ordered_column_ids:
+        - C_MKTSEGMENT
+        - Total test
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: C_MKTSEGMENT
+        - column_id: Total test
+        axis_configs:
+        - x:
+          - C_MKTSEGMENT
+          "y":
+          - Total test
+        client_state: ""
+      display_mode: TABLE_MODE
+    viz_guid: 4315ff42-cd2e-465c-b3be-f73f4835c754
   layout:
     tiles:
     - visualization_id: Viz_1
