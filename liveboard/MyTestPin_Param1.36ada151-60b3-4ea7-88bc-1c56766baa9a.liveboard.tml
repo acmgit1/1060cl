@@ -145,6 +145,40 @@ liveboard:
         client_state: ""
       display_mode: TABLE_MODE
     viz_guid: 8c7b478c-4bc1-4480-8066-1c7a74c4a1c8
+  - id: Viz_5
+    answer:
+      name: Total FxParam by C_NATION
+      tables:
+      - id: testRLS
+        name: testRLS
+        fqn: 4b7d428e-1742-4329-ab7a-197a112d04ff
+      search_query: "[FxParam] [C_NATION]"
+      answer_columns:
+      - name: C_NATION
+      - name: Total FxParam
+      table:
+        table_columns:
+        - column_id: C_NATION
+          show_headline: false
+        - column_id: Total FxParam
+          show_headline: false
+        ordered_column_ids:
+        - C_NATION
+        - Total FxParam
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: C_NATION
+        - column_id: Total FxParam
+        axis_configs:
+        - x:
+          - C_NATION
+          "y":
+          - Total FxParam
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 2796de9f-d83a-4e36-8dd0-03e7d53057bf
   layout:
     tiles:
     - visualization_id: Viz_1
