@@ -1637,11 +1637,6 @@ liveboard:
         "y": 9
         height: 8
         width: 6
-      - visualization_id: Viz_3
-        x: 6
-        "y": 1
-        height: 8
-        width: 6
       - visualization_id: Viz_4
         x: 0
         "y": 17
@@ -1649,7 +1644,7 @@ liveboard:
         width: 6
       - visualization_id: Viz_5
         x: 6
-        "y": 9
+        "y": 1
         height: 8
         width: 6
       - visualization_id: Viz_6
@@ -1659,7 +1654,7 @@ liveboard:
         width: 6
       - visualization_id: Viz_7
         x: 6
-        "y": 17
+        "y": 9
         height: 8
         width: 6
       - visualization_id: Viz_8
@@ -1768,6 +1763,12 @@ liveboard:
       id: 4854992b-031b-44a2-af41-0e1254a6eebc
     - name: Tab4
       description: ""
+      tiles:
+      - visualization_id: Viz_3
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
       id: 4e7f1dfd-1b7b-41f2-a6e6-696adbf91e20
   ordered_chips:
   - name: County Name
