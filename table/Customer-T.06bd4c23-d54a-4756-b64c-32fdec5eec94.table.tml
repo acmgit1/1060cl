@@ -1,0 +1,63 @@
+guid: 06bd4c23-d54a-4756-b64c-32fdec5eec94
+table:
+  name: Customer-T
+  db: NEBULADEV
+  schema: TPCH5K_falcon_default_schema
+  db_table: CUSTOMER
+  connection:
+    name: SF-Nilanjan
+    fqn: bb1e8c67-dfbc-4bd8-980a-a5dec84ef199
+  columns:
+  - name: C_CUSTKEY
+    db_column_name: C_CUSTKEY
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: C_NAME
+    db_column_name: C_NAME
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_ADDRESS
+    db_column_name: C_ADDRESS
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_CITY
+    db_column_name: C_CITY
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_NATION
+    db_column_name: C_NATION
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_REGION
+    db_column_name: C_REGION
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_PHONE
+    db_column_name: C_PHONE
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: C_MKTSEGMENT
+    db_column_name: C_MKTSEGMENT
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  properties:
+    sage_config:
+      is_sage_enabled: false

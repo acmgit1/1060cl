@@ -1,0 +1,138 @@
+guid: e41b15ba-6ffa-4fbd-8881-f62930f15515
+table:
+  name: Date-T
+  db: NEBULADEV
+  schema: TPCH5K_falcon_default_schema
+  db_table: DATE
+  connection:
+    name: SF-Nilanjan
+    fqn: bb1e8c67-dfbc-4bd8-980a-a5dec84ef199
+  columns:
+  - name: D_DATEKEY
+    db_column_name: D_DATEKEY
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DATE
+  - name: D_DATE
+    db_column_name: D_DATE
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: D_DAYOFWEEK
+    db_column_name: D_DAYOFWEEK
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: D_MONTH
+    db_column_name: D_MONTH
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: D_YEAR
+    db_column_name: D_YEAR
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_YEARMONTHNUM
+    db_column_name: D_YEARMONTHNUM
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_YEARMONTH
+    db_column_name: D_YEARMONTH
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: D_DAYNUMINWEEK
+    db_column_name: D_DAYNUMINWEEK
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_DAYNUMINMONTH
+    db_column_name: D_DAYNUMINMONTH
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_DAYNUMINYEAR
+    db_column_name: D_DAYNUMINYEAR
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_MONTHNUMINYEAR
+    db_column_name: D_MONTHNUMINYEAR
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_WEEKNUMINYEAR
+    db_column_name: D_WEEKNUMINYEAR
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_SELLINGSEASON
+    db_column_name: D_SELLINGSEASON
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: D_LASTDAYINWEEKFL
+    db_column_name: D_LASTDAYINWEEKFL
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_LASTDAYINMONTHFL
+    db_column_name: D_LASTDAYINMONTHFL
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_HOLIDAYFL
+    db_column_name: D_HOLIDAYFL
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: D_WEEKDAYFL
+    db_column_name: D_WEEKDAYFL
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  properties:
+    sage_config:
+      is_sage_enabled: false
