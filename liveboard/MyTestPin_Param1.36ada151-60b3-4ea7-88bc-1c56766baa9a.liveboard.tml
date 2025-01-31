@@ -111,6 +111,40 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Quarter(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_ORDERKEY\",\"columnProperty\": {}},{\"columnId\": \"Total LO_DISCOUNT\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a0211755-fd5d-4b20-811b-e3c274974fc4\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_ORDERKEY\"],\"isOpposite\": false}},{\"id\": \"c3eec0c7-4365-47f8-8e80-13ec1dfcbb23\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(LO_COMMITDATE)\"]}}]}"
       display_mode: CHART_MODE
     viz_guid: 64b65f7a-b24d-45a3-95d7-8ac8b79d91ff
+  - id: Viz_4
+    answer:
+      name: Total FxParam by C_NEWCOL
+      tables:
+      - id: testRLS
+        name: testRLS
+        fqn: 4b7d428e-1742-4329-ab7a-197a112d04ff
+      search_query: "[FxParam] [C_NATION]"
+      answer_columns:
+      - name: C_NATION
+      - name: Total FxParam
+      table:
+        table_columns:
+        - column_id: C_NATION
+          show_headline: false
+        - column_id: Total FxParam
+          show_headline: false
+        ordered_column_ids:
+        - C_NATION
+        - Total FxParam
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: C_NATION
+        - column_id: Total FxParam
+        axis_configs:
+        - x:
+          - C_NATION
+          "y":
+          - Total FxParam
+        client_state: ""
+      display_mode: TABLE_MODE
+    viz_guid: 8c7b478c-4bc1-4480-8066-1c7a74c4a1c8
   layout:
     tiles:
     - visualization_id: Viz_1
@@ -122,6 +156,11 @@ liveboard:
     value:
       name: testRLS::para1
       override_value: "3"
+  - key: 5416dd3b-ded8-4fd3-a522-03c468d9f094
+    value:
+      name: testRLS::P1
   ordered_chips:
   - name: testRLS::para1
+    type: PARAMETER
+  - name: testRLS::P1
     type: PARAMETER
