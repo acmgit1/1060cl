@@ -73,7 +73,7 @@ liveboard:
     viz_guid: e17437bb-a801-481e-ab65-17ec3ccd932d
   - id: Viz_3
     answer:
-      name: <h1>TestKPIPin</h1> <div> testing </div>
+      name: TestKPIPin
       tables:
       - id: LINEORDER-jan30
         name: LINEORDER-jan30
@@ -109,7 +109,9 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: LARGE
+      size: MEDIUM_SMALL
+    - visualization_id: Viz_3
+      size: SMALL
     - visualization_id: Viz_2
       size: MEDIUM
   parameter_overrides:
