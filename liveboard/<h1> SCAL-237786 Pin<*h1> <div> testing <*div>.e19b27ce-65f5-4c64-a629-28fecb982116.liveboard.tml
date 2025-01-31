@@ -1631,7 +1631,7 @@ liveboard:
         x: 0
         "y": 1
         height: 8
-        width: 12
+        width: 6
       - visualization_id: Viz_2
         x: 0
         "y": 9
@@ -1639,7 +1639,7 @@ liveboard:
         width: 6
       - visualization_id: Viz_3
         x: 6
-        "y": 9
+        "y": 1
         height: 8
         width: 6
       - visualization_id: Viz_4
@@ -1649,7 +1649,7 @@ liveboard:
         width: 6
       - visualization_id: Viz_5
         x: 6
-        "y": 17
+        "y": 9
         height: 8
         width: 6
       - visualization_id: Viz_6
@@ -1659,7 +1659,7 @@ liveboard:
         width: 6
       - visualization_id: Viz_7
         x: 6
-        "y": 25
+        "y": 17
         height: 8
         width: 6
       - visualization_id: Viz_8
