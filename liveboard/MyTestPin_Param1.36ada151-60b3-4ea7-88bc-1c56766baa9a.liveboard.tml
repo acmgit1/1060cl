@@ -228,6 +228,18 @@ liveboard:
       id: f1274b7b-c3eb-42ac-a658-96be42d250b7
     - name: P1
       id: 5416dd3b-ded8-4fd3-a522-03c468d9f094
+  - view_guid: 012704d7-ea74-4ebc-a911-089bd6c7f3ba
+    name: V2
+    is_public: false
+    view_parameters:
+    - name: ""
+      id: 2c77e8b5-9b2a-4488-892e-4294728409bf
+      override_value: "4"
+    - name: para12
+      id: f1274b7b-c3eb-42ac-a658-96be42d250b7
+    - name: P1
+      id: 5416dd3b-ded8-4fd3-a522-03c468d9f094
+      override_value: "10"
   ordered_chips:
   - name: testRLS::para1
     type: PARAMETER
