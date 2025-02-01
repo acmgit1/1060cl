@@ -115,6 +115,7 @@ liveboard:
   - id: Viz_4
     answer:
       name: Total test by C_MKTSEGMENT
+      description: Testing
       tables:
       - id: testRLS
         name: testRLS
@@ -154,18 +155,18 @@ liveboard:
       height: 4
       width: 3
     - visualization_id: Viz_2
-      x: 6
-      "y": 0
-      height: 8
-      width: 6
-    - visualization_id: Viz_4
       x: 0
       "y": 8
+      height: 8
+      width: 12
+    - visualization_id: Viz_4
+      x: 0
+      "y": 0
       height: 8
       width: 6
     - visualization_id: Viz_3
       x: 6
-      "y": 8
+      "y": 16
       height: 8
       width: 6
   parameter_overrides:
@@ -176,9 +177,6 @@ liveboard:
   - key: 5416dd3b-ded8-4fd3-a522-03c468d9f094
     value:
       name: testRLS::P1
-  - key: f1274b7b-c3eb-42ac-a658-96be42d250b7
-    value:
-      name: testRLS::para12
   views:
   - view_guid: 01c67a45-ab67-42ef-8075-48adf27bf8a1
     name: V1
@@ -187,8 +185,6 @@ liveboard:
     - name: ""
       id: 2c77e8b5-9b2a-4488-892e-4294728409bf
       override_value: "4"
-    - name: para12
-      id: f1274b7b-c3eb-42ac-a658-96be42d250b7
     - name: P1
       id: 5416dd3b-ded8-4fd3-a522-03c468d9f094
   - view_guid: 012704d7-ea74-4ebc-a911-089bd6c7f3ba
@@ -198,8 +194,6 @@ liveboard:
     - name: ""
       id: 2c77e8b5-9b2a-4488-892e-4294728409bf
       override_value: "4"
-    - name: para12
-      id: f1274b7b-c3eb-42ac-a658-96be42d250b7
     - name: P1
       id: 5416dd3b-ded8-4fd3-a522-03c468d9f094
       override_value: "10"
@@ -207,6 +201,4 @@ liveboard:
   - name: testRLS::para1
     type: PARAMETER
   - name: testRLS::P1
-    type: PARAMETER
-  - name: testRLS::para12
     type: PARAMETER
