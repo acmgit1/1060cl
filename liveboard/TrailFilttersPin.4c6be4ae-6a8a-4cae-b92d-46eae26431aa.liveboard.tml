@@ -1,0 +1,1799 @@
+guid: 4c6be4ae-6a8a-4cae-b92d-46eae26431aa
+liveboard:
+  name: TrailFilttersPin
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Pin1
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - Month(date_ordered)
+          "y":
+          - Total Age
+          - Total Density
+          - Total Household Size
+          - Total Net Sales
+        client_state: ""
+      display_mode: TABLE_MODE
+    viz_guid: 57b563c7-a498-4367-ae88-19eb8dc35632
+  - id: Viz_2
+    answer:
+      name: "Total Density, Total Net Sales, Total Age by County Name"
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - County Name
+          "y":
+          - Total Density
+          - Total Net Sales
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"af50dd0a-05ea-4c2a-86d2-17998a40f33c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Density\",\"Total Net Sales\",\"Total Age\"],\"isOpposite\": false}},{\"id\": \"7dddabc2-fa5e-4f83-a856-a3b78b9275c8\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"County Name\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Age\",\"color\": \"#FCC838\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 70aec9ac-77f9-43cf-bebb-8879dc823070
+  - id: Viz_3
+    answer:
+      name: "Total Density, Total Net Sales, Total Age by County Name"
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: LINE
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - County Name
+          "y":
+          - Total Density
+          - Total Net Sales
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"6c3be10d-526c-4243-9679-e9cd74ef6e8a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Density\"],\"isOpposite\": false}},{\"id\": \"5f60e7a2-a786-4b83-8110-2bf790ea4baa\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Net Sales\"],\"isOpposite\": true}},{\"id\": \"5421c610-7520-4aa7-b115-91964ca44ce0\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": true}},{\"id\": \"88c37ea7-8892-4d50-8daa-f5ac5301b8da\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"County Name\"]}}]}"
+      display_mode: CHART_MODE
+    viz_guid: 6c73f984-cfda-489f-a7d9-45a119f2a181
+  - id: Viz_4
+    answer:
+      name: Total Age by City
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: PIE
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - City
+          "y":
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"2f75747d-f8a6-442b-a716-d4337d78c327\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"701ffb1f-6152-4373-b4b3-cb158313d830\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\"]}}]}"
+      display_mode: CHART_MODE
+    viz_guid: 1dd69ca3-a7f5-4c6d-a4a4-b350a422bc99
+  - id: Viz_5
+    answer:
+      name: Total Age by City
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: BAR
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - City
+          "y":
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"2f75747d-f8a6-442b-a716-d4337d78c327\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"701ffb1f-6152-4373-b4b3-cb158313d830\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\"]}}],\"systemSeriesColors\": [{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 882f662b-f729-416e-9d36-a203c013bfbc
+  - id: Viz_6
+    answer:
+      name: Total Age by City and County Name
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: STACKED_BAR
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - City
+          "y":
+          - Total Age
+          color:
+          - County Name
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"2166b816-c0b9-42cb-be15-5f8b896c3900\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"df87f709-7365-429d-8eff-6cf15048c923\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\"]}}],\"systemSeriesColors\": [{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"},{\"serieName\": \"Total Age\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: cb897447-80c4-4bdd-9fbf-022e64726948
+  - id: Viz_7
+    answer:
+      name: Total Age by City
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: AREA
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - City
+          "y":
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"64d40798-315f-4794-ad8f-d59464b224c5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"aeb1ad45-ca8b-401c-8842-63fc1c02d8b4\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\"]}}],\"systemSeriesColors\": [{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"},{\"serieName\": \"Total Age\",\"color\": \"#2E75F0\"},{\"serieName\": \"alameda\",\"color\": \"#721F27\"},{\"serieName\": \"allegheny\",\"color\": \"#B6313E\"},{\"serieName\": \"allen\",\"color\": \"#F9B3B9\"},{\"serieName\": \"arapahoe\",\"color\": \"#F04152\"},{\"serieName\": \"berks\",\"color\": \"#2F3947\"},{\"serieName\": \"bernalillo\",\"color\": \"#A2ACBA\"},{\"serieName\": \"bexar\",\"color\": \"#47515F\"},{\"serieName\": \"brevard\",\"color\": \"#BEC6D0\"},{\"serieName\": \"caddo\",\"color\": \"#7A3D1F\"},{\"serieName\": \"chatham\",\"color\": \"#FFA97E\"},{\"serieName\": \"collin\",\"color\": \"#C26232\"},{\"serieName\": \"contra costa\",\"color\": \"#FFCCB3\"},{\"serieName\": \"cook\",\"color\": \"#FF8142\"},{\"serieName\": \"dane\",\"color\": \"#B094F8\"},{\"serieName\": \"dauphin\",\"color\": \"#6A4ABA\"},{\"serieName\": \"dutchess\",\"color\": \"#025B3C\"},{\"serieName\": \"duval\",\"color\": \"#56D3A8\"},{\"serieName\": \"east baton rouge\",\"color\": \"#049160\"},{\"serieName\": \"erie\",\"color\": \"#06BF7F\"},{\"serieName\": \"escambia\",\"color\": \"#785F1A\"},{\"serieName\": \"essex\",\"color\": \"#FCD977\"},{\"serieName\": \"flagler\",\"color\": \"#BF982A\"},{\"serieName\": \"fulton\",\"color\": \"#FCC838\"},{\"serieName\": \"genesee\",\"color\": \"#22636B\"},{\"serieName\": \"harris\",\"color\": \"#82DFE9\"},{\"serieName\": \"hidalgo\",\"color\": \"#369FAA\"},{\"serieName\": \"hillsborough\",\"color\": \"#B5ECF2\"},{\"serieName\": \"hudson\",\"color\": \"#48D1E0\"},{\"serieName\": \"ingham\",\"color\": \"#163772\"},{\"serieName\": \"jefferson\",\"color\": \"#71A1F4\"},{\"serieName\": \"kent\",\"color\": \"#2359B6\"},{\"serieName\": \"kern\",\"color\": \"#ABC7F9\"},{\"serieName\": \"kings\",\"color\": \"#2E75F0\"},{\"serieName\": \"lackawanna\",\"color\": \"#721F27\"},{\"serieName\": \"lake\",\"color\": \"#B6313E\"},{\"serieName\": \"lane\",\"color\": \"#F04152\"},{\"serieName\": \"larimer\",\"color\": \"#2F3947\"},{\"serieName\": \"lee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lehigh\",\"color\": \"#47515F\"},{\"serieName\": \"marion\",\"color\": \"#7A3D1F\"},{\"serieName\": \"mercer\",\"color\": \"#FFA97E\"},{\"serieName\": \"miami-dade\",\"color\": \"#C26232\"},{\"serieName\": \"monroe\",\"color\": \"#422E75\"},{\"serieName\": \"montgomery\",\"color\": \"#B094F8\"},{\"serieName\": \"multnomah\",\"color\": \"#6A4ABA\"},{\"serieName\": \"nueces\",\"color\": \"#8C62F5\"},{\"serieName\": \"onondaga\",\"color\": \"#025B3C\"},{\"serieName\": \"orange\",\"color\": \"#56D3A8\"},{\"serieName\": \"orleans\",\"color\": \"#049160\"},{\"serieName\": \"osceola\",\"color\": \"#9BE5CB\"},{\"serieName\": \"pinellas\",\"color\": \"#785F1A\"},{\"serieName\": \"polk\",\"color\": \"#FCD977\"},{\"serieName\": \"san bernardino\",\"color\": \"#82DFE9\"},{\"serieName\": \"san joaquin\",\"color\": \"#48D1E0\"},{\"serieName\": \"santa clara\",\"color\": \"#163772\"},{\"serieName\": \"scott\",\"color\": \"#2359B6\"},{\"serieName\": \"sonoma\",\"color\": \"#ABC7F9\"},{\"serieName\": \"st. joseph\",\"color\": \"#2E75F0\"},{\"serieName\": \"st. lucie\",\"color\": \"#721F27\"},{\"serieName\": \"stanislaus\",\"color\": \"#F47E89\"},{\"serieName\": \"tarrant\",\"color\": \"#B6313E\"},{\"serieName\": \"travis\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ventura\",\"color\": \"#F04152\"},{\"serieName\": \"washtenaw\",\"color\": \"#A2ACBA\"},{\"serieName\": \"wayne\",\"color\": \"#47515F\"},{\"serieName\": \"webb\",\"color\": \"#BEC6D0\"},{\"serieName\": \"winnebago\",\"color\": \"#747E8C\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 0eba6442-3927-431e-8f6c-fcad6df36fd3
+  - id: Viz_8
+    answer:
+      name: "Total Density, Total Age by City"
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: STACKED_AREA
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - City
+          "y":
+          - Total Density
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"2e1f14e5-c9da-413b-ba3a-1bf6cb2a0dc4\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Density\",\"Total Age\"],\"isOpposite\": false}},{\"id\": \"48f5a4f0-6d60-4c3b-b78c-1aa10ae34025\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\"]}}],\"systemSeriesColors\": [{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"},{\"serieName\": \"Total Age\",\"color\": \"#2E75F0\"},{\"serieName\": \"alameda\",\"color\": \"#721F27\"},{\"serieName\": \"allegheny\",\"color\": \"#B6313E\"},{\"serieName\": \"allen\",\"color\": \"#F9B3B9\"},{\"serieName\": \"arapahoe\",\"color\": \"#F04152\"},{\"serieName\": \"berks\",\"color\": \"#2F3947\"},{\"serieName\": \"bernalillo\",\"color\": \"#A2ACBA\"},{\"serieName\": \"bexar\",\"color\": \"#47515F\"},{\"serieName\": \"brevard\",\"color\": \"#BEC6D0\"},{\"serieName\": \"caddo\",\"color\": \"#7A3D1F\"},{\"serieName\": \"chatham\",\"color\": \"#FFA97E\"},{\"serieName\": \"collin\",\"color\": \"#C26232\"},{\"serieName\": \"contra costa\",\"color\": \"#FFCCB3\"},{\"serieName\": \"cook\",\"color\": \"#FF8142\"},{\"serieName\": \"dane\",\"color\": \"#B094F8\"},{\"serieName\": \"dauphin\",\"color\": \"#6A4ABA\"},{\"serieName\": \"dutchess\",\"color\": \"#025B3C\"},{\"serieName\": \"duval\",\"color\": \"#56D3A8\"},{\"serieName\": \"east baton rouge\",\"color\": \"#049160\"},{\"serieName\": \"erie\",\"color\": \"#06BF7F\"},{\"serieName\": \"escambia\",\"color\": \"#785F1A\"},{\"serieName\": \"essex\",\"color\": \"#FCD977\"},{\"serieName\": \"flagler\",\"color\": \"#BF982A\"},{\"serieName\": \"fulton\",\"color\": \"#FCC838\"},{\"serieName\": \"genesee\",\"color\": \"#22636B\"},{\"serieName\": \"harris\",\"color\": \"#82DFE9\"},{\"serieName\": \"hidalgo\",\"color\": \"#369FAA\"},{\"serieName\": \"hillsborough\",\"color\": \"#B5ECF2\"},{\"serieName\": \"hudson\",\"color\": \"#48D1E0\"},{\"serieName\": \"ingham\",\"color\": \"#163772\"},{\"serieName\": \"jefferson\",\"color\": \"#71A1F4\"},{\"serieName\": \"kent\",\"color\": \"#2359B6\"},{\"serieName\": \"kern\",\"color\": \"#ABC7F9\"},{\"serieName\": \"kings\",\"color\": \"#2E75F0\"},{\"serieName\": \"lackawanna\",\"color\": \"#721F27\"},{\"serieName\": \"lake\",\"color\": \"#B6313E\"},{\"serieName\": \"lane\",\"color\": \"#F04152\"},{\"serieName\": \"larimer\",\"color\": \"#2F3947\"},{\"serieName\": \"lee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lehigh\",\"color\": \"#47515F\"},{\"serieName\": \"marion\",\"color\": \"#7A3D1F\"},{\"serieName\": \"mercer\",\"color\": \"#FFA97E\"},{\"serieName\": \"miami-dade\",\"color\": \"#C26232\"},{\"serieName\": \"monroe\",\"color\": \"#422E75\"},{\"serieName\": \"montgomery\",\"color\": \"#B094F8\"},{\"serieName\": \"multnomah\",\"color\": \"#6A4ABA\"},{\"serieName\": \"nueces\",\"color\": \"#8C62F5\"},{\"serieName\": \"onondaga\",\"color\": \"#025B3C\"},{\"serieName\": \"orange\",\"color\": \"#56D3A8\"},{\"serieName\": \"orleans\",\"color\": \"#049160\"},{\"serieName\": \"osceola\",\"color\": \"#9BE5CB\"},{\"serieName\": \"pinellas\",\"color\": \"#785F1A\"},{\"serieName\": \"polk\",\"color\": \"#FCD977\"},{\"serieName\": \"san bernardino\",\"color\": \"#82DFE9\"},{\"serieName\": \"san joaquin\",\"color\": \"#48D1E0\"},{\"serieName\": \"santa clara\",\"color\": \"#163772\"},{\"serieName\": \"scott\",\"color\": \"#2359B6\"},{\"serieName\": \"sonoma\",\"color\": \"#ABC7F9\"},{\"serieName\": \"st. joseph\",\"color\": \"#2E75F0\"},{\"serieName\": \"st. lucie\",\"color\": \"#721F27\"},{\"serieName\": \"stanislaus\",\"color\": \"#F47E89\"},{\"serieName\": \"tarrant\",\"color\": \"#B6313E\"},{\"serieName\": \"travis\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ventura\",\"color\": \"#F04152\"},{\"serieName\": \"washtenaw\",\"color\": \"#A2ACBA\"},{\"serieName\": \"wayne\",\"color\": \"#47515F\"},{\"serieName\": \"webb\",\"color\": \"#BEC6D0\"},{\"serieName\": \"winnebago\",\"color\": \"#747E8C\"},{\"serieName\": \"Total Density\",\"color\": \"#48D1E0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 528697b2-1619-4b3c-9101-00f32b230213
+  - id: Viz_9
+    answer:
+      name: Total Household Size and Total Net Sales by Total Density
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: BUBBLE
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - Total Density
+          "y":
+          - Total Household Size
+          size: Total Net Sales
+          category:
+          - City
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"6d9bd5bf-f724-4ec7-93bd-b44d54f079e1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Household Size\"],\"isOpposite\": false}},{\"id\": \"bcdd7969-a97c-4b61-9a8d-eaa359f61120\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Total Density\"]}}]}"
+      display_mode: CHART_MODE
+    viz_guid: 5fb5dc67-e04a-4542-b4bc-3447c8d928de
+  - id: Viz_10
+    answer:
+      name: Total Density by Total Age and Monthly date_ordered - Golden_custcal
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: SCATTER
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - Total Age
+          "y":
+          - Total Density
+          color:
+          - Month(date_ordered)
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"31d10375-af55-4d2e-b8bc-3cfdf2c2c1cc\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Density\"],\"isOpposite\": false}},{\"id\": \"b182a608-ae93-422e-bbae-154343cbac51\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Total Age\"]}}]}"
+      display_mode: CHART_MODE
+    viz_guid: ab3970ba-d4fd-4efd-9725-fdf2174194a5
+  - id: Viz_11
+    answer:
+      name: "Total Age, Total Density by County Name"
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: LINE_STACKED_COLUMN
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - County Name
+          "y":
+          - Total Age
+        - x:
+          - County Name
+          "y":
+          - Total Density
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"0761afac-8ef7-4e70-a4d8-fd94a4c74743\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"8eb8f979-106a-4bf1-afcf-9a167b270f5b\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Density\"],\"isOpposite\": true}},{\"id\": \"e077e320-c6be-49f6-8d66-24fbb7cf6814\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"County Name\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 3afcc47c-ae7e-4fd7-8292-122ff26af8ac
+  - id: Viz_12
+    answer:
+      name: Total Density and Total Age by Monthly date_ordered - Golden_custcal
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: TREEMAP
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - Month(date_ordered)
+          "y":
+          - Total Density
+          size: Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"151f270b-60ad-4a30-935b-b478a5b8132f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Density\"],\"isOpposite\": false}},{\"id\": \"c4c44278-5930-4c75-bf9b-e69b26a97eaa\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(date_ordered)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 5c1da667-91b3-421b-b530-e5e4a051c501
+  - id: Viz_13
+    answer:
+      name: City and Total Age by Monthly date_ordered - Golden_custcal
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: HEATMAP
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - Month(date_ordered)
+          "y":
+          - City
+          size: Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1927003c-f3d7-439c-96b7-b33fff534af1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"City\"],\"isOpposite\": false}},{\"id\": \"7ecee622-fc69-4c03-954b-3e04a26f9029\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(date_ordered)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 63b18279-595e-4ebd-b18b-b6071e04a18d
+  - id: Viz_14
+    answer:
+      name: Total Age by City
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: FUNNEL
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - City
+          "y":
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"e40bd668-8f19-45a4-bf89-9a5b9c5e9ada\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"4cbb11c8-ad7f-4130-9800-f700985d0c61\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"},{\"serieName\": \"City\",\"color\": \"#48d1e0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: cbc13f9e-47d4-48ff-87d4-dccdc1163263
+  - id: Viz_15
+    answer:
+      name: "Total Age by City, County Name, Monthly date_ordered - Golden_custcal"
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: SANKEY
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - City
+          - County Name
+          "y":
+          - Total Age
+        - x:
+          - County Name
+          - Month(date_ordered)
+          "y":
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"464e6388-770a-423a-937f-b307726ddd37\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"da98549a-e98d-4b92-85b7-a5ac7201ba14\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\",\"County Name\",\"Month(date_ordered)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"},{\"serieName\": \"City\",\"color\": \"#48d1e0\"},{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: f9edb531-7d90-4aad-a887-7722b9f496b4
+  - id: Viz_16
+    answer:
+      name: "Total Age by City, County Name, Monthly date_ordered - Golden_custcal"
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: SPIDER_WEB
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - City
+          - County Name
+          - Month(date_ordered)
+          "y":
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"464e6388-770a-423a-937f-b307726ddd37\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"da98549a-e98d-4b92-85b7-a5ac7201ba14\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\",\"County Name\",\"Month(date_ordered)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"},{\"serieName\": \"City\",\"color\": \"#48d1e0\"},{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 9f4d586a-9775-4baf-a9c9-3e88958bf7ef
+  - id: Viz_17
+    answer:
+      name: "Total Age, Total Density, Total Household Size, Total Net Sales by Monthly date_ordered - Golden_custcal"
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: CANDLESTICK
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - Month(date_ordered)
+          "y":
+          - Total Age
+          - Total Density
+          - Total Household Size
+          - Total Net Sales
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a1a5b36a-50fe-4ca4-a2a7-59adf6b712cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\",\"Total Density\",\"Total Household Size\",\"Total Net Sales\"],\"isOpposite\": false}},{\"id\": \"3f1e1e49-7e6f-4f77-b4bd-26e09c572a3d\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(date_ordered)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"},{\"serieName\": \"City\",\"color\": \"#48d1e0\"},{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 624814c2-82af-4455-8f90-a0cdc7747653
+  - id: Viz_18
+    answer:
+      name: "Total Age, Total Density, Total Household Size, Total Net Sales by Monthly date_ordered - Golden_custcal"
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: ADVANCED_PIVOT_TABLE
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Measure names
+          type: MEASURE_NAMES
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a1a5b36a-50fe-4ca4-a2a7-59adf6b712cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\",\"Total Density\",\"Total Household Size\",\"Total Net Sales\"],\"isOpposite\": false}},{\"id\": \"3f1e1e49-7e6f-4f77-b4bd-26e09c572a3d\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(date_ordered)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"},{\"serieName\": \"City\",\"color\": \"#48d1e0\"},{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"}]}"
+        custom_chart_config:
+        - key: basic
+          dimensions:
+          - key: rows
+            columns:
+            - City
+            - Month(date_ordered)
+          - key: values
+            columns:
+            - Total Age
+            - Total Density
+          - key: columns
+            columns:
+            - Measure names
+          - key: split-by-color
+      display_mode: CHART_MODE
+    viz_guid: 08eb4b95-d3bb-459d-b695-0018baa6e08c
+  - id: Viz_19
+    viz_guid: 53a5b810-9dc0-4f30-a181-82c79aeddbc4
+    note_tile:
+      html_parsed_string: "<h1 dir=\"ltr\" style=\"text-align: center;\"><b><strong class=\"theme-module__editor-text-bold\" style=\"white-space: pre-wrap;\">TestPin</strong></b></h1><p class=\"theme-module__editor-paragraph\" dir=\"ltr\"><br></p><div class=\"pinboard-note-tile-module__noteTileBg editor-module__bgNode\" style=\"background-color: rgb(176, 148, 248);\"></div>"
+  - id: Viz_20
+    viz_guid: 7b908cae-cd0c-4063-8518-9969a8c374f8
+    note_tile:
+      html_parsed_string: "<h2 class=\"theme-module__editor-h2\" dir=\"ltr\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">Charts</span></h2><p class=\"theme-module__editor-paragraph\" dir=\"ltr\"><br></p><div class=\"pinboard-note-tile-module__noteTileBg editor-module__bgNode\" style=\"background-color: rgb(244, 126, 137);\"></div>"
+  - id: Viz_21
+    answer:
+      name: Total Age by Monthly date_ordered - Golden_custcal
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - Month(date_ordered)
+          "y":
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {}},{\"columnId\": \"Total Age\",\"columnProperty\": {}},{\"columnId\": \"Total Density\",\"columnProperty\": {}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"County Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"944f352e-d569-49ea-86d8-ccd8b7d7f022\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"6171079f-b63a-497b-9969-a26aef937d6a\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(date_ordered)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"},{\"serieName\": \"City\",\"color\": \"#48d1e0\"},{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 0cfe5d69-3af9-47f5-b01a-a72d6d58187c
+  - id: Viz_22
+    answer:
+      name: Total Household Size by Monthly date_ordered - Golden_custcal
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].monthly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Month(date_ordered)
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Month(date_ordered)
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Month(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Month(date_ordered)
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        axis_configs:
+        - x:
+          - Month(date_ordered)
+          "y":
+          - Total Household Size
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Month(date_ordered)\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Age\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Density\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure names\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure values\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"County Name\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"42408cef-062a-4d9a-9d9c-51ee24f22b87\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Household Size\"],\"isOpposite\": false}},{\"id\": \"dd0db3e7-437e-413c-8a11-cbd703e872d5\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(date_ordered)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"},{\"serieName\": \"City\",\"color\": \"#48d1e0\"},{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: c1601bd5-79e2-4ed8-9f26-eb00976d2464
+  - id: Viz_23
+    answer:
+      name: Total Density by Yearly date_ordered - Golden_custcal
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].yearly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      - name: Year(date_ordered)
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        - column_id: Year(date_ordered)
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Year(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        - column_id: Year(date_ordered)
+        axis_configs:
+        - x:
+          - Year(date_ordered)
+          "y":
+          - Total Density
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Year(date_ordered)\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Age\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Density\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure names\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure values\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"County Name\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"91c6e5d3-5b69-4d8d-a73e-84a87d91d1dc\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Density\"],\"isOpposite\": false}},{\"id\": \"44b9a78e-79bc-44cb-b43e-8a38c4f0a0ee\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Year(date_ordered)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"},{\"serieName\": \"City\",\"color\": \"#48d1e0\"},{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"},{\"serieName\": \"Total Household Size\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 580926ba-b92b-4be4-a4d9-7989cd780a24
+  - id: Viz_24
+    answer:
+      name: Total Density
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].yearly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      - name: Year(date_ordered)
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        - column_id: Year(date_ordered)
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Year(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        - column_id: Year(date_ordered)
+        axis_configs:
+        - "y":
+          - Total Density
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Year(date_ordered)\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Age\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Density\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure names\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure values\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"County Name\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"fa284057-3506-4801-9781-9bdaea972d3a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Density\"],\"isOpposite\": false}},{\"id\": \"410e1a76-aa1f-4018-b036-a8c7cad36808\",\"properties\": {\"axisType\": \"X\"}}],\"systemSeriesColors\": [{\"serieName\": \"february 2022\",\"color\": \"#F47E89\"},{\"serieName\": \"march 2022\",\"color\": \"#B6313E\"},{\"serieName\": \"april 2022\",\"color\": \"#F9B3B9\"},{\"serieName\": \"may 2022\",\"color\": \"#F04152\"},{\"serieName\": \"june 2022\",\"color\": \"#A2ACBA\"},{\"serieName\": \"july 2022\",\"color\": \"#47515F\"},{\"serieName\": \"august 2022\",\"color\": \"#BEC6D0\"},{\"serieName\": \"september 2022\",\"color\": \"#747E8C\"},{\"serieName\": \"october 2022\",\"color\": \"#FFA97E\"},{\"serieName\": \"november 2022\",\"color\": \"#C26232\"},{\"serieName\": \"december 2022\",\"color\": \"#FFCCB3\"},{\"serieName\": \"january 2023\",\"color\": \"#FF8142\"},{\"serieName\": \"february 2023\",\"color\": \"#B094F8\"},{\"serieName\": \"march 2023\",\"color\": \"#6A4ABA\"},{\"serieName\": \"april 2023\",\"color\": \"#D1C0FB\"},{\"serieName\": \"may 2023\",\"color\": \"#8C62F5\"},{\"serieName\": \"june 2023\",\"color\": \"#025B3C\"},{\"serieName\": \"july 2023\",\"color\": \"#56D3A8\"},{\"serieName\": \"august 2023\",\"color\": \"#049160\"},{\"serieName\": \"september 2023\",\"color\": \"#9BE5CB\"},{\"serieName\": \"october 2023\",\"color\": \"#06BF7F\"},{\"serieName\": \"november 2023\",\"color\": \"#785F1A\"},{\"serieName\": \"december 2023\",\"color\": \"#FCD977\"},{\"serieName\": \"january 2024\",\"color\": \"#BF982A\"},{\"serieName\": \"february 2024\",\"color\": \"#FDE9AF\"},{\"serieName\": \"march 2024\",\"color\": \"#FCC838\"},{\"serieName\": \"april 2024\",\"color\": \"#22636B\"},{\"serieName\": \"may 2024\",\"color\": \"#82DFE9\"},{\"serieName\": \"june 2024\",\"color\": \"#369FAA\"},{\"serieName\": \"july 2024\",\"color\": \"#B5ECF2\"},{\"serieName\": \"august 2024\",\"color\": \"#48D1E0\"},{\"serieName\": \"september 2024\",\"color\": \"#163772\"},{\"serieName\": \"october 2024\",\"color\": \"#71A1F4\"},{\"serieName\": \"november 2024\",\"color\": \"#2359B6\"},{\"serieName\": \"december 2024\",\"color\": \"#ABC7F9\"},{\"serieName\": \"january 2025\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Age\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Density\",\"color\": \"#2E75F0\"},{\"serieName\": \"City\",\"color\": \"#48d1e0\"},{\"serieName\": \"albany\",\"color\": \"#721F27\"},{\"serieName\": \"albuquerque\",\"color\": \"#F47E89\"},{\"serieName\": \"allentown\",\"color\": \"#B6313E\"},{\"serieName\": \"anaheim\",\"color\": \"#F9B3B9\"},{\"serieName\": \"ann arbor\",\"color\": \"#F04152\"},{\"serieName\": \"antioch\",\"color\": \"#2F3947\"},{\"serieName\": \"arlington\",\"color\": \"#A2ACBA\"},{\"serieName\": \"atlanta\",\"color\": \"#47515F\"},{\"serieName\": \"augusta\",\"color\": \"#BEC6D0\"},{\"serieName\": \"aurora\",\"color\": \"#747E8C\"},{\"serieName\": \"austin\",\"color\": \"#7A3D1F\"},{\"serieName\": \"bakersfield\",\"color\": \"#FFA97E\"},{\"serieName\": \"baton rouge\",\"color\": \"#C26232\"},{\"serieName\": \"birmingham\",\"color\": \"#FFCCB3\"},{\"serieName\": \"bonita springs\",\"color\": \"#FF8142\"},{\"serieName\": \"bronx\",\"color\": \"#422E75\"},{\"serieName\": \"brooklyn\",\"color\": \"#B094F8\"},{\"serieName\": \"buffalo\",\"color\": \"#6A4ABA\"},{\"serieName\": \"cape coral\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chicago\",\"color\": \"#8C62F5\"},{\"serieName\": \"chula vista\",\"color\": \"#025B3C\"},{\"serieName\": \"colorado springs\",\"color\": \"#56D3A8\"},{\"serieName\": \"concord\",\"color\": \"#049160\"},{\"serieName\": \"corpus christi\",\"color\": \"#9BE5CB\"},{\"serieName\": \"dallas\",\"color\": \"#06BF7F\"},{\"serieName\": \"davenport\",\"color\": \"#785F1A\"},{\"serieName\": \"denton\",\"color\": \"#FCD977\"},{\"serieName\": \"denver\",\"color\": \"#BF982A\"},{\"serieName\": \"des moines\",\"color\": \"#FDE9AF\"},{\"serieName\": \"detroit\",\"color\": \"#FCC838\"},{\"serieName\": \"el paso\",\"color\": \"#22636B\"},{\"serieName\": \"eugene\",\"color\": \"#82DFE9\"},{\"serieName\": \"flint\",\"color\": \"#369FAA\"},{\"serieName\": \"fort collins\",\"color\": \"#B5ECF2\"},{\"serieName\": \"fort wayne\",\"color\": \"#48D1E0\"},{\"serieName\": \"fort worth\",\"color\": \"#163772\"},{\"serieName\": \"fresno\",\"color\": \"#71A1F4\"},{\"serieName\": \"grand rapids\",\"color\": \"#2359B6\"},{\"serieName\": \"harrisburg\",\"color\": \"#ABC7F9\"},{\"serieName\": \"houston\",\"color\": \"#2E75F0\"},{\"serieName\": \"huntsville\",\"color\": \"#721F27\"},{\"serieName\": \"indianapolis\",\"color\": \"#F47E89\"},{\"serieName\": \"indio\",\"color\": \"#B6313E\"},{\"serieName\": \"irvine\",\"color\": \"#F9B3B9\"},{\"serieName\": \"jacksonville\",\"color\": \"#F04152\"},{\"serieName\": \"jersey city\",\"color\": \"#2F3947\"},{\"serieName\": \"kissimmee\",\"color\": \"#A2ACBA\"},{\"serieName\": \"lafayette\",\"color\": \"#47515F\"},{\"serieName\": \"lakeland\",\"color\": \"#BEC6D0\"},{\"serieName\": \"lancaster\",\"color\": \"#747E8C\"},{\"serieName\": \"lansing\",\"color\": \"#7A3D1F\"},{\"serieName\": \"laredo\",\"color\": \"#FFA97E\"},{\"serieName\": \"long beach\",\"color\": \"#C26232\"},{\"serieName\": \"los angeles\",\"color\": \"#FFCCB3\"},{\"serieName\": \"madison\",\"color\": \"#FF8142\"},{\"serieName\": \"manhattan\",\"color\": \"#422E75\"},{\"serieName\": \"mcallen\",\"color\": \"#B094F8\"},{\"serieName\": \"miami\",\"color\": \"#6A4ABA\"},{\"serieName\": \"milwaukee\",\"color\": \"#D1C0FB\"},{\"serieName\": \"mission viejo\",\"color\": \"#8C62F5\"},{\"serieName\": \"mobile\",\"color\": \"#025B3C\"},{\"serieName\": \"modesto\",\"color\": \"#56D3A8\"},{\"serieName\": \"murrieta\",\"color\": \"#049160\"},{\"serieName\": \"new orleans\",\"color\": \"#9BE5CB\"},{\"serieName\": \"new york\",\"color\": \"#06BF7F\"},{\"serieName\": \"newark\",\"color\": \"#785F1A\"},{\"serieName\": \"oakland\",\"color\": \"#FCD977\"},{\"serieName\": \"orlando\",\"color\": \"#BF982A\"},{\"serieName\": \"oxnard\",\"color\": \"#FDE9AF\"},{\"serieName\": \"palm bay\",\"color\": \"#FCC838\"},{\"serieName\": \"palm coast\",\"color\": \"#22636B\"},{\"serieName\": \"pensacola\",\"color\": \"#82DFE9\"},{\"serieName\": \"philadelphia\",\"color\": \"#369FAA\"},{\"serieName\": \"pittsburgh\",\"color\": \"#B5ECF2\"},{\"serieName\": \"plano\",\"color\": \"#48D1E0\"},{\"serieName\": \"port st. lucie\",\"color\": \"#163772\"},{\"serieName\": \"portland\",\"color\": \"#71A1F4\"},{\"serieName\": \"poughkeepsie\",\"color\": \"#2359B6\"},{\"serieName\": \"queens\",\"color\": \"#ABC7F9\"},{\"serieName\": \"reading\",\"color\": \"#2E75F0\"},{\"serieName\": \"richmond\",\"color\": \"#721F27\"},{\"serieName\": \"riverside\",\"color\": \"#F47E89\"},{\"serieName\": \"rochester\",\"color\": \"#B6313E\"},{\"serieName\": \"rockford\",\"color\": \"#F9B3B9\"},{\"serieName\": \"round lake beach\",\"color\": \"#F04152\"},{\"serieName\": \"sacramento\",\"color\": \"#2F3947\"},{\"serieName\": \"salem\",\"color\": \"#A2ACBA\"},{\"serieName\": \"san antonio\",\"color\": \"#47515F\"},{\"serieName\": \"san diego\",\"color\": \"#BEC6D0\"},{\"serieName\": \"san francisco\",\"color\": \"#747E8C\"},{\"serieName\": \"san jose\",\"color\": \"#7A3D1F\"},{\"serieName\": \"santa ana\",\"color\": \"#FFA97E\"},{\"serieName\": \"santa rosa\",\"color\": \"#C26232\"},{\"serieName\": \"sarasota\",\"color\": \"#FFCCB3\"},{\"serieName\": \"savannah\",\"color\": \"#FF8142\"},{\"serieName\": \"scranton\",\"color\": \"#422E75\"},{\"serieName\": \"shreveport\",\"color\": \"#B094F8\"},{\"serieName\": \"south bend\",\"color\": \"#6A4ABA\"},{\"serieName\": \"st. petersburg\",\"color\": \"#D1C0FB\"},{\"serieName\": \"staten island\",\"color\": \"#8C62F5\"},{\"serieName\": \"stockton\",\"color\": \"#025B3C\"},{\"serieName\": \"syracuse\",\"color\": \"#56D3A8\"},{\"serieName\": \"tampa\",\"color\": \"#049160\"},{\"serieName\": \"the woodlands\",\"color\": \"#9BE5CB\"},{\"serieName\": \"trenton\",\"color\": \"#06BF7F\"},{\"serieName\": \"victorville\",\"color\": \"#785F1A\"},{\"serieName\": \"virginia beach\",\"color\": \"#FCD977\"},{\"serieName\": \"Total Household Size\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 7e930853-b15f-4d6b-a166-bdcff55d49a0
+  - id: Viz_25
+    answer:
+      name: Total Age by City
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].yearly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      - name: Year(date_ordered)
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        - column_id: Year(date_ordered)
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Year(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: GEO_BUBBLE
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        - column_id: Year(date_ordered)
+        axis_configs:
+        - x:
+          - City
+          "y":
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Year(date_ordered)\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Age\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Density\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure names\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure values\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"County Name\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"2a593fde-54af-497a-b012-42785e3ac98a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"23504d09-a25a-41cd-8788-27358bba6969\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\"]}}]}"
+      display_mode: CHART_MODE
+    viz_guid: 7e82a338-4a48-4861-9f1e-a973651e76c3
+  - id: Viz_26
+    answer:
+      name: Total Age by City
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City] [date_ordered] [date_ordered].yearly [Density] [Household Size] [Net Sales] [County Name]"
+      answer_columns:
+      - name: City
+      - name: County Name
+      - name: Total Age
+      - name: Total Density
+      - name: Total Household Size
+      - name: Total Net Sales
+      - name: Year(date_ordered)
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: County Name
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        - column_id: Total Density
+          show_headline: false
+        - column_id: Total Household Size
+          show_headline: false
+        - column_id: Total Net Sales
+          show_headline: false
+        - column_id: Year(date_ordered)
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Year(date_ordered)
+        - County Name
+        - Total Age
+        - Total Density
+        - Total Household Size
+        - Total Net Sales
+        client_state: ""
+      chart:
+        type: GEO_AREA
+        chart_columns:
+        - column_id: City
+        - column_id: County Name
+        - column_id: Total Age
+        - column_id: Total Density
+        - column_id: Total Household Size
+        - column_id: Total Net Sales
+        - column_id: Year(date_ordered)
+        axis_configs:
+        - x:
+          - City
+          "y":
+          - Total Age
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"City\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Year(date_ordered)\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Age\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Density\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Household Size\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Net Sales\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure names\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Measure values\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"County Name\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"2a593fde-54af-497a-b012-42785e3ac98a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Age\"],\"isOpposite\": false}},{\"id\": \"23504d09-a25a-41cd-8788-27358bba6969\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"City\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Age\",\"color\": \"#F04152\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 747fd769-8bc6-4e05-ab29-fdb9e27c0ae1
+  filters:
+  - column:
+    - County Name
+    oper: in
+    values:
+    - Cook
+    - Dallas
+    - Harris
+    - Queens
+    - Los Angeles
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - age_bucket
+    oper: in
+    values:
+    - 2. 20-30
+    - 3. 30-40
+    - 4. 40-50
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - City
+    oper: in
+    values:
+    - Chicago
+    - Dallas
+    - Houston
+    - Lancaster
+    - Long Beach
+    - New York
+    - Los Angeles
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - date_ordered
+    is_mandatory: false
+    date_filter:
+      type: LAST_N_PERIOD
+      number: 10
+      oper: =
+      date_period: YEAR
+    display_name: ""
+  - column:
+    - Floor Space
+    oper: '>='
+    values:
+    - "10"
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - inventory_added
+    is_mandatory: false
+    date_filter:
+      type: EXACT_DATE_RANGE
+      oper: between
+      date_range:
+        start_date: 01/01/2020
+        end_date: 01/31/2023
+    display_name: ""
+  - column:
+    - Product Name
+    oper: not in
+    values:
+    - Active boxer briefs
+    - Active sport boxer briefs
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Region
+    oper: in
+    values:
+    - Midwest
+    - Northeast
+    - Southwest
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Shipmode
+    oper: in
+    values:
+    - air
+    - fob
+    - mail
+    - rail
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Store Status
+    oper: in
+    values:
+    - active
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Sales Quantity
+    oper: '>'
+    values:
+    - "1"
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Product Type
+    oper: in
+    values:
+    - Bags
+    - Dresses
+    - Headwear
+    - Jackets
+    - Jeans
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Marital Status
+    oper: in
+    values:
+    - married
+    - single
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tabs:
+    - name: Tab1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 1
+        height: 8
+        width: 6
+      - visualization_id: Viz_2
+        x: 0
+        "y": 9
+        height: 8
+        width: 6
+      - visualization_id: Viz_4
+        x: 0
+        "y": 17
+        height: 8
+        width: 6
+      - visualization_id: Viz_5
+        x: 6
+        "y": 1
+        height: 8
+        width: 6
+      - visualization_id: Viz_6
+        x: 0
+        "y": 25
+        height: 8
+        width: 6
+      - visualization_id: Viz_7
+        x: 6
+        "y": 9
+        height: 8
+        width: 6
+      - visualization_id: Viz_8
+        x: 0
+        "y": 34
+        height: 8
+        width: 6
+      - visualization_id: Viz_9
+        x: 6
+        "y": 34
+        height: 8
+        width: 6
+      - visualization_id: Viz_10
+        x: 0
+        "y": 42
+        height: 8
+        width: 6
+      - visualization_id: Viz_11
+        x: 6
+        "y": 42
+        height: 8
+        width: 6
+      - visualization_id: Viz_12
+        x: 0
+        "y": 50
+        height: 8
+        width: 6
+      - visualization_id: Viz_13
+        x: 6
+        "y": 50
+        height: 8
+        width: 6
+      - visualization_id: Viz_14
+        x: 0
+        "y": 58
+        height: 8
+        width: 6
+      - visualization_id: Viz_15
+        x: 6
+        "y": 58
+        height: 8
+        width: 6
+      - visualization_id: Viz_16
+        x: 0
+        "y": 66
+        height: 8
+        width: 6
+      - visualization_id: Viz_17
+        x: 6
+        "y": 66
+        height: 8
+        width: 6
+      - visualization_id: Viz_18
+        x: 0
+        "y": 74
+        height: 8
+        width: 6
+      - visualization_id: Viz_19
+        x: 0
+        "y": 0
+        height: 1
+        width: 12
+      - visualization_id: Viz_20
+        x: 0
+        "y": 33
+        height: 1
+        width: 12
+      id: 6a3084b6-3d41-4f4f-9cbc-f4c8c37e5e5c
+    - name: Tab2
+      description: ""
+      tiles:
+      - visualization_id: Viz_21
+        x: 0
+        "y": 0
+        height: 4
+        width: 3
+      - visualization_id: Viz_22
+        x: 3
+        "y": 0
+        height: 4
+        width: 3
+      - visualization_id: Viz_23
+        x: 6
+        "y": 0
+        height: 4
+        width: 3
+      - visualization_id: Viz_24
+        x: 9
+        "y": 0
+        height: 2
+        width: 3
+      id: 572f1088-a518-49d8-bdbc-bac93f85ef5d
+    - name: Tab3
+      description: ""
+      tiles:
+      - visualization_id: Viz_25
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
+      - visualization_id: Viz_26
+        x: 6
+        "y": 0
+        height: 8
+        width: 6
+      id: 2c396cc5-2f53-46b3-ae56-633a19f293b2
+    - name: Tab4
+      description: ""
+      tiles:
+      - visualization_id: Viz_3
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
+      id: dfd9a5a2-62fe-4aee-a6ca-d59b350dc18b
+  ordered_chips:
+  - name: County Name
+    type: FILTER
+  - name: age_bucket
+    type: FILTER
+  - name: City
+    type: FILTER
+  - name: date_ordered
+    type: FILTER
+  - name: Floor Space
+    type: FILTER
+  - name: inventory_added
+    type: FILTER
+  - name: Product Name
+    type: FILTER
+  - name: Region
+    type: FILTER
+  - name: Shipmode
+    type: FILTER
+  - name: Store Status
+    type: FILTER
+  - name: Sales Quantity
+    type: FILTER
+  - name: Product Type
+    type: FILTER
+  - name: Marital Status
+    type: FILTER
