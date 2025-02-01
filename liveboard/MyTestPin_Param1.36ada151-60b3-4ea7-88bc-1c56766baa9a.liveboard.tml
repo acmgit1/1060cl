@@ -44,40 +44,6 @@ liveboard:
     viz_guid: 64b65f7a-b24d-45a3-95d7-8ac8b79d91ff
   - id: Viz_2
     answer:
-      name: Total FxParam by C_NATION123
-      tables:
-      - id: testRLS
-        name: testRLS
-        fqn: 4b7d428e-1742-4329-ab7a-197a112d04ff
-      search_query: "[FxParam] [C_NATION]"
-      answer_columns:
-      - name: C_NATION
-      - name: Total FxParam
-      table:
-        table_columns:
-        - column_id: C_NATION
-          show_headline: false
-        - column_id: Total FxParam
-          show_headline: false
-        ordered_column_ids:
-        - C_NATION
-        - Total FxParam
-        client_state: ""
-      chart:
-        type: COLUMN
-        chart_columns:
-        - column_id: C_NATION
-        - column_id: Total FxParam
-        axis_configs:
-        - x:
-          - C_NATION
-          "y":
-          - Total FxParam
-        client_state: ""
-      display_mode: TABLE_MODE
-    viz_guid: 8c7b478c-4bc1-4480-8066-1c7a74c4a1c8
-  - id: Viz_3
-    answer:
       name: Total FxParam by C_NATION
       tables:
       - id: testRLS
@@ -112,7 +78,7 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"C_NATION\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"Total FxParam\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"8a20b093-cb91-4697-bb2c-2b320d3ab723\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total FxParam\"],\"isOpposite\": false}},{\"id\": \"4d1ae3b5-2f4b-48b2-bf69-67bfcac86931\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C_NATION\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total FxParam\",\"color\": \"#FF8142\"}]}"
       display_mode: CHART_MODE
     viz_guid: 2796de9f-d83a-4e36-8dd0-03e7d53057bf
-  - id: Viz_4
+  - id: Viz_3
     answer:
       name: Total test by C_MKTSEGMENT
       tables:
@@ -146,7 +112,7 @@ liveboard:
         client_state: ""
       display_mode: CHART_MODE
     viz_guid: f2f61dd7-55a3-4a99-abb6-34b9676665c2
-  - id: Viz_5
+  - id: Viz_4
     answer:
       name: Total test by C_MKTSEGMENT
       tables:
@@ -187,22 +153,17 @@ liveboard:
       "y": 16
       height: 4
       width: 3
-    - visualization_id: Viz_3
+    - visualization_id: Viz_2
       x: 6
       "y": 0
       height: 8
       width: 6
-    - visualization_id: Viz_2
-      x: 0
-      "y": 0
-      height: 8
-      width: 6
-    - visualization_id: Viz_5
+    - visualization_id: Viz_4
       x: 0
       "y": 8
       height: 8
       width: 6
-    - visualization_id: Viz_4
+    - visualization_id: Viz_3
       x: 6
       "y": 8
       height: 8
