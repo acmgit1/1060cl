@@ -4,25 +4,25 @@ model:
   description: In this worksheet Chinese and French Custom calendars are applied.
     Change the join types when executing test cases or when needed.
   model_tables:
-  - name: Lineorder-T
+  - name: NewTableScheduleTest1
     fqn: 35b6b744-ba22-4284-9595-c09cfc95422d
     joins:
     - with: Customer-T
       referencing_join: LINEORDER_CUSTOMER
-    - with: Date-T
+    - with: NewTableScheduleTest1
       referencing_join: LINEORDER_DATE_1
-    - with: Part-T
+    - with: NewTableScheduleTest1
       referencing_join: Lineorder-Part
-  - name: Date-T
+  - name: NewTableScheduleTest1
     fqn: e41b15ba-6ffa-4fbd-8881-f62930f15515
   - name: Customer-T
     fqn: 06bd4c23-d54a-4756-b64c-32fdec5eec94
-  - name: Part-T
+  - name: NewTableScheduleTest1
     fqn: a56fa3af-a119-43fd-a55d-de915f59b587
   formulas:
   - id: Test Fmla
     name: Test Fmla
-    expr: '[Lineorder-T::LO_SHIPMODE] = [String Param]'
+    expr: '[NewTableScheduleTest1::LO_SHIPMODE] = [String Param]'
   - id: Test Formula
     name: Test Formula
     expr: '[Test Param]'
@@ -31,16 +31,17 @@ model:
     expr: cumulative_average ( [WSFMLA] )
   - id: WSF-4
     name: WSF-4
-    expr: cumulative_min ( [Lineorder-T::LO_TAX] , [WSF-3] )
+    expr: cumulative_min ( [NewTableScheduleTest1::LO_TAX] , [WSF-3] )
   - id: WSF-3
     name: WSF-3
-    expr: '[Lineorder-T::LO_SHIPMODE] not in { ''air'' , ''mail'' }'
+    expr: '[NewTableScheduleTest1::LO_SHIPMODE] not in { ''air'' , ''mail'' }'
   - id: WSFMLA
     name: WSFMLA
-    expr: group_max ( [Lineorder-T::LO_REVENUE] , [Lineorder-T::LO_ORDERDATE] )
+    expr: group_max ( [NewTableScheduleTest1::LO_REVENUE] , [NewTableScheduleTest1::LO_ORDERDATE]
+      )
   - id: f(x)
     name: f(x)
-    expr: '[Lineorder-T::LO_SHIPMODE] = [Shipmode Param]'
+    expr: '[NewTableScheduleTest1::LO_SHIPMODE] = [Shipmode Param]'
   filters:
   - column:
     - LO_DISCOUNT
@@ -49,7 +50,7 @@ model:
     - '-10'
   columns:
   - name: LO_ORDERKEY
-    column_id: Lineorder-T::LO_ORDERKEY
+    column_id: NewTableScheduleTest1::LO_ORDERKEY
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -110,7 +111,7 @@ model:
       index_type: DONT_INDEX
       synonym_type: AUTO_GENERATED
   - name: LO_LINENUMBER
-    column_id: Lineorder-T::LO_LINENUMBER
+    column_id: NewTableScheduleTest1::LO_LINENUMBER
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -120,21 +121,21 @@ model:
       - line
       synonym_type: AUTO_GENERATED
   - name: LO_CUSTKEY
-    column_id: Lineorder-T::LO_CUSTKEY
+    column_id: NewTableScheduleTest1::LO_CUSTKEY
     properties:
       column_type: MEASURE
       aggregation: SUM
       index_type: DONT_INDEX
       synonym_type: AUTO_GENERATED
   - name: LO_PARTKEY
-    column_id: Lineorder-T::LO_PARTKEY
+    column_id: NewTableScheduleTest1::LO_PARTKEY
     properties:
       column_type: MEASURE
       aggregation: SUM
       index_type: DONT_INDEX
       synonym_type: AUTO_GENERATED
   - name: LO_SUPPKEY
-    column_id: Lineorder-T::LO_SUPPKEY
+    column_id: NewTableScheduleTest1::LO_SUPPKEY
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -144,7 +145,7 @@ model:
       - Supplier
       synonym_type: AUTO_GENERATED
   - name: LO_ORDERDATE
-    column_id: Lineorder-T::LO_ORDERDATE
+    column_id: NewTableScheduleTest1::LO_ORDERDATE
     properties:
       column_type: ATTRIBUTE
       index_type: DONT_INDEX
@@ -154,7 +155,7 @@ model:
       format_pattern: '#,##.'
       synonym_type: USER_DEFINED
   - name: LO_ORDERPRIORITY
-    column_id: Lineorder-T::LO_ORDERPRIORITY
+    column_id: NewTableScheduleTest1::LO_ORDERPRIORITY
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -162,7 +163,7 @@ model:
       - order urgency
       synonym_type: AUTO_GENERATED
   - name: LO_SHIPPRIORITY
-    column_id: Lineorder-T::LO_SHIPPRIORITY
+    column_id: NewTableScheduleTest1::LO_SHIPPRIORITY
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -170,7 +171,7 @@ model:
       - Ship Priority
       synonym_type: AUTO_GENERATED
   - name: LO_QUANTITY
-    column_id: Lineorder-T::LO_QUANTITY
+    column_id: NewTableScheduleTest1::LO_QUANTITY
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -179,7 +180,7 @@ model:
       - Quantity
       synonym_type: AUTO_GENERATED
   - name: LO_EXTENDEDPRICE
-    column_id: Lineorder-T::LO_EXTENDEDPRICE
+    column_id: NewTableScheduleTest1::LO_EXTENDEDPRICE
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -188,7 +189,7 @@ model:
       - extended price
       synonym_type: AUTO_GENERATED
   - name: LO_ORDTOTALPRICE
-    column_id: Lineorder-T::LO_ORDTOTALPRICE
+    column_id: NewTableScheduleTest1::LO_ORDTOTALPRICE
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -197,7 +198,7 @@ model:
       - Order Total Price
       synonym_type: AUTO_GENERATED
   - name: LO_DISCOUNT
-    column_id: Lineorder-T::LO_DISCOUNT
+    column_id: NewTableScheduleTest1::LO_DISCOUNT
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -207,7 +208,7 @@ model:
       - discount rate
       synonym_type: AUTO_GENERATED
   - name: LO_REVENUE
-    column_id: Lineorder-T::LO_REVENUE
+    column_id: NewTableScheduleTest1::LO_REVENUE
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -218,7 +219,7 @@ model:
       format_pattern: '#,###.'
       synonym_type: AUTO_GENERATED
   - name: LO_SUPPLYCOST
-    column_id: Lineorder-T::LO_SUPPLYCOST
+    column_id: NewTableScheduleTest1::LO_SUPPLYCOST
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -228,7 +229,7 @@ model:
       - Cost
       synonym_type: AUTO_GENERATED
   - name: LO_TAX
-    column_id: Lineorder-T::LO_TAX
+    column_id: NewTableScheduleTest1::LO_TAX
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -238,7 +239,7 @@ model:
       - Duty
       synonym_type: AUTO_GENERATED
   - name: LO_COMMITDATE
-    column_id: Lineorder-T::LO_COMMITDATE
+    column_id: NewTableScheduleTest1::LO_COMMITDATE
     properties:
       column_type: ATTRIBUTE
       index_type: DONT_INDEX
@@ -247,7 +248,7 @@ model:
       calendar: French-CC-Nilanjan
       synonym_type: AUTO_GENERATED
   - name: LO_SHIPMODE
-    column_id: Lineorder-T::LO_SHIPMODE
+    column_id: NewTableScheduleTest1::LO_SHIPMODE
     properties:
       column_type: ATTRIBUTE
       synonym_type: AUTO_GENERATED
@@ -255,7 +256,7 @@ model:
       - air
       - ship
   - name: D_DATEKEY
-    column_id: Date-T::D_DATEKEY
+    column_id: NewTableScheduleTest1::D_DATEKEY
     properties:
       column_type: ATTRIBUTE
       index_type: DONT_INDEX
@@ -263,28 +264,28 @@ model:
       - Date Key
       synonym_type: AUTO_GENERATED
   - name: D_DATE
-    column_id: Date-T::D_DATE
+    column_id: NewTableScheduleTest1::D_DATE
     properties:
       column_type: ATTRIBUTE
       synonyms:
       - calendar date
       synonym_type: AUTO_GENERATED
   - name: D_DAYOFWEEK
-    column_id: Date-T::D_DAYOFWEEK
+    column_id: NewTableScheduleTest1::D_DAYOFWEEK
     properties:
       column_type: ATTRIBUTE
       synonyms:
       - Day of Week
       synonym_type: AUTO_GENERATED
   - name: D_MONTH
-    column_id: Date-T::D_MONTH
+    column_id: NewTableScheduleTest1::D_MONTH
     properties:
       column_type: ATTRIBUTE
       synonyms:
       - month name
       synonym_type: AUTO_GENERATED
   - name: D_YEAR
-    column_id: Date-T::D_YEAR
+    column_id: NewTableScheduleTest1::D_YEAR
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -294,7 +295,7 @@ model:
       - Year of Order
       synonym_type: AUTO_GENERATED
   - name: D_YEARMONTHNUM
-    column_id: Date-T::D_YEARMONTHNUM
+    column_id: NewTableScheduleTest1::D_YEARMONTHNUM
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -303,7 +304,7 @@ model:
       - Year Month Number
       synonym_type: AUTO_GENERATED
   - name: D_YEARMONTH
-    column_id: Date-T::D_YEARMONTH
+    column_id: NewTableScheduleTest1::D_YEARMONTH
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -311,7 +312,7 @@ model:
       - Year and Month
       synonym_type: AUTO_GENERATED
   - name: D_DAYNUMINWEEK
-    column_id: Date-T::D_DAYNUMINWEEK
+    column_id: NewTableScheduleTest1::D_DAYNUMINWEEK
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -321,7 +322,7 @@ model:
       - day in week
       synonym_type: AUTO_GENERATED
   - name: D_DAYNUMINMONTH
-    column_id: Date-T::D_DAYNUMINMONTH
+    column_id: NewTableScheduleTest1::D_DAYNUMINMONTH
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -331,7 +332,7 @@ model:
       - day in month
       synonym_type: AUTO_GENERATED
   - name: D_DAYNUMINYEAR
-    column_id: Date-T::D_DAYNUMINYEAR
+    column_id: NewTableScheduleTest1::D_DAYNUMINYEAR
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -341,7 +342,7 @@ model:
       - Order Day
       synonym_type: AUTO_GENERATED
   - name: D_MONTHNUMINYEAR
-    column_id: Date-T::D_MONTHNUMINYEAR
+    column_id: NewTableScheduleTest1::D_MONTHNUMINYEAR
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -350,7 +351,7 @@ model:
       - Order Month
       synonym_type: AUTO_GENERATED
   - name: D_WEEKNUMINYEAR
-    column_id: Date-T::D_WEEKNUMINYEAR
+    column_id: NewTableScheduleTest1::D_WEEKNUMINYEAR
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -360,7 +361,7 @@ model:
       - week
       synonym_type: AUTO_GENERATED
   - name: D_SELLINGSEASON
-    column_id: Date-T::D_SELLINGSEASON
+    column_id: NewTableScheduleTest1::D_SELLINGSEASON
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -368,7 +369,7 @@ model:
       - Period
       synonym_type: AUTO_GENERATED
   - name: D_LASTDAYINWEEKFL
-    column_id: Date-T::D_LASTDAYINWEEKFL
+    column_id: NewTableScheduleTest1::D_LASTDAYINWEEKFL
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -378,7 +379,7 @@ model:
       - end of week
       synonym_type: AUTO_GENERATED
   - name: D_LASTDAYINMONTHFL
-    column_id: Date-T::D_LASTDAYINMONTHFL
+    column_id: NewTableScheduleTest1::D_LASTDAYINMONTHFL
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -388,7 +389,7 @@ model:
       - end of month
       synonym_type: AUTO_GENERATED
   - name: D_HOLIDAYFL
-    column_id: Date-T::D_HOLIDAYFL
+    column_id: NewTableScheduleTest1::D_HOLIDAYFL
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -398,7 +399,7 @@ model:
       - Holiday
       synonym_type: AUTO_GENERATED
   - name: D_WEEKDAYFL
-    column_id: Date-T::D_WEEKDAYFL
+    column_id: NewTableScheduleTest1::D_WEEKDAYFL
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -473,14 +474,14 @@ model:
       - customer segment
       synonym_type: AUTO_GENERATED
   - name: P_PARTKEY
-    column_id: Part-T::P_PARTKEY
+    column_id: NewTableScheduleTest1::P_PARTKEY
     properties:
       column_type: MEASURE
       aggregation: SUM
       index_type: DONT_INDEX
       synonym_type: AUTO_GENERATED
   - name: P_NAME
-    column_id: Part-T::P_NAME
+    column_id: NewTableScheduleTest1::P_NAME
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -488,7 +489,7 @@ model:
       - Title
       synonym_type: AUTO_GENERATED
   - name: P_MFGR
-    column_id: Part-T::P_MFGR
+    column_id: NewTableScheduleTest1::P_MFGR
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -496,7 +497,7 @@ model:
       - product manufacturer
       synonym_type: AUTO_GENERATED
   - name: P_CATEGORY
-    column_id: Part-T::P_CATEGORY
+    column_id: NewTableScheduleTest1::P_CATEGORY
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -504,7 +505,7 @@ model:
       - part category
       synonym_type: AUTO_GENERATED
   - name: P_BRAND1
-    column_id: Part-T::P_BRAND1
+    column_id: NewTableScheduleTest1::P_BRAND1
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -512,7 +513,7 @@ model:
       - Producer
       synonym_type: AUTO_GENERATED
   - name: P_COLOR
-    column_id: Part-T::P_COLOR
+    column_id: NewTableScheduleTest1::P_COLOR
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -520,7 +521,7 @@ model:
       - Hue
       synonym_type: AUTO_GENERATED
   - name: P_TYPE
-    column_id: Part-T::P_TYPE
+    column_id: NewTableScheduleTest1::P_TYPE
     properties:
       column_type: ATTRIBUTE
       synonyms:
@@ -528,7 +529,7 @@ model:
       - part type
       synonym_type: AUTO_GENERATED
   - name: P_SIZE
-    column_id: Part-T::P_SIZE
+    column_id: NewTableScheduleTest1::P_SIZE
     properties:
       column_type: MEASURE
       aggregation: SUM
@@ -538,7 +539,7 @@ model:
       - Dimension
       synonym_type: AUTO_GENERATED
   - name: P_CONTAINER
-    column_id: Part-T::P_CONTAINER
+    column_id: NewTableScheduleTest1::P_CONTAINER
     properties:
       column_type: ATTRIBUTE
       synonyms:

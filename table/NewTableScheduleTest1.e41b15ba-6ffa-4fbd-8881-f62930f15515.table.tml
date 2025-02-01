@@ -1,6 +1,6 @@
 guid: e41b15ba-6ffa-4fbd-8881-f62930f15515
 table:
-  name: Date-T
+  name: NewTableScheduleTest1
   db: NEBULADEV
   schema: TPCH5K_falcon_default_schema
   db_table: DATE

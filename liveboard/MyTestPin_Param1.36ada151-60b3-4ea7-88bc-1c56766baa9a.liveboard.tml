@@ -44,7 +44,7 @@ liveboard:
     viz_guid: 64b65f7a-b24d-45a3-95d7-8ac8b79d91ff
   - id: Viz_2
     answer:
-      name: Total FxParam by C_NATION
+      name: Total FxParam by C_NATION123
       tables:
       - id: testRLS
         name: testRLS

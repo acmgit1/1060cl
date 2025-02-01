@@ -1,6 +1,6 @@
 guid: a56fa3af-a119-43fd-a55d-de915f59b587
 table:
-  name: Part-T
+  name: NewTableScheduleTest1
   db: NEBULADEV
   schema: TPCH5K_falcon_default_schema
   db_table: PART

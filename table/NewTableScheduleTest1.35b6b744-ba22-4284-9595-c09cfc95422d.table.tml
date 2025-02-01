@@ -1,6 +1,6 @@
 guid: 35b6b744-ba22-4284-9595-c09cfc95422d
 table:
-  name: Lineorder-T
+  name: NewTableScheduleTest1
   db: NEBULADEV
   schema: TPCH5K_falcon_default_schema
   db_table: LINEORDER
@@ -136,37 +136,30 @@ table:
       column_type: ATTRIBUTE
     db_column_properties:
       data_type: VARCHAR
-  rls_rules:
-    tables:
-    - name: Lineorder-T
-      fqn: 35b6b744-ba22-4284-9595-c09cfc95422d
-    rules:
-    - name: RLS 1
-      expr: ts_username != 'testuser-1'
   joins_with:
   - name: LINEORDER_CUSTOMER
     destination:
       name: Customer-T
       fqn: 06bd4c23-d54a-4756-b64c-32fdec5eec94
-    "on": "[Lineorder-T::LO_CUSTKEY] = [Customer-T::C_CUSTKEY]"
+    "on": "[NewTableScheduleTest1::LO_CUSTKEY] = [Customer-T::C_CUSTKEY]"
     type: INNER
   - name: LINEORDER_DATE_1
     destination:
-      name: Date-T
+      name: NewTableScheduleTest1
       fqn: e41b15ba-6ffa-4fbd-8881-f62930f15515
-    "on": "[Lineorder-T::LO_ORDERDATE] = [Date-T::D_DATEKEY]"
+    "on": "[NewTableScheduleTest1::LO_ORDERDATE] = [NewTableScheduleTest1::D_DATEKEY]"
     type: INNER
   - name: LINEORDER_DATE_2
     destination:
-      name: Date-T
+      name: NewTableScheduleTest1
       fqn: e41b15ba-6ffa-4fbd-8881-f62930f15515
-    "on": "[Lineorder-T::LO_COMMITDATE] = [Date-T::D_DATEKEY]"
+    "on": "[NewTableScheduleTest1::LO_COMMITDATE] = [NewTableScheduleTest1::D_DATEKEY]"
     type: INNER
   - name: Lineorder-Part
     destination:
-      name: Part-T
+      name: NewTableScheduleTest1
       fqn: a56fa3af-a119-43fd-a55d-de915f59b587
-    "on": "[Lineorder-T::LO_PARTKEY] = [Part-T::P_PARTKEY]"
+    "on": "[NewTableScheduleTest1::LO_PARTKEY] = [NewTableScheduleTest1::P_PARTKEY]"
     type: INNER
   properties:
     sage_config:

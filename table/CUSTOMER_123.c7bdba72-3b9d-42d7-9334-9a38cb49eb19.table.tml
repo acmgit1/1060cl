@@ -64,20 +64,6 @@ table:
       column_type: ATTRIBUTE
     db_column_properties:
       data_type: VARCHAR
-  rls_rules:
-    tables:
-    - name: CUSTOMER_123
-      fqn: c7bdba72-3b9d-42d7-9334-9a38cb49eb19
-    table_paths:
-    - id: CUSTOMER_123_1
-      table: CUSTOMER_123
-      column:
-      - C_NAME
-      - C_PHONE
-      - C_CITY
-    rules:
-    - name: test
-      expr: "[CUSTOMER_123_1::C_CITY] = concat ( [CUSTOMER_123_1::C_NAME] , [CUSTOMER_123_1::C_PHONE] )"
   properties:
     sage_config:
       is_sage_enabled: false

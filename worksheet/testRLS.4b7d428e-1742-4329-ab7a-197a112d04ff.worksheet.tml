@@ -23,6 +23,13 @@ worksheet:
   - name: test
     expr: "[para12] + [para1]"
     was_auto_generated: false
+  filters:
+  - column:
+    - C_NATION
+    oper: in
+    values:
+    - brazil
+    - india
   worksheet_columns:
   - name: C_CUSTKEY
     column_id: CUSTOMER_123_1::C_CUSTKEY
@@ -46,6 +53,7 @@ worksheet:
     column_id: CUSTOMER_123_1::C_NATION
     properties:
       column_type: ATTRIBUTE
+      is_hidden: true
   - name: C_REGION
     column_id: CUSTOMER_123_1::C_REGION
     properties:
