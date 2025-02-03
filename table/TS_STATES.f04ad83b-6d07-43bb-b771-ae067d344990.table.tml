@@ -28,10 +28,10 @@ table:
     - id: TS_STATES_1
       table: TS_STATES
       column:
-      - STATE
+      - REGION
     rules:
-    - name: newRls
-      expr: "[TS_STATES_1::STATE] = ts_groups"
+    - name: rls1
+      expr: "ts_groups = [TS_STATES_1::REGION]"
   properties:
     sage_config:
-      is_sage_enabled: true
+      is_sage_enabled: false

@@ -75,4 +75,4 @@ table:
     type: INNER
   properties:
     sage_config:
-      is_sage_enabled: true
+      is_sage_enabled: false
