@@ -1,3 +1,38 @@
 guid: 1a176e15-996d-4d71-9e7f-f3e076eec447
 liveboard:
   name: TestPinSCAL-238534
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Age by City
+      tables:
+      - id: WS_golden
+        name: WS_golden
+        fqn: c8684f7f-d8a4-4bc9-b87d-115433c5e458
+      search_query: "[Age] [City]"
+      answer_columns:
+      - name: City
+      - name: Total Age
+      table:
+        table_columns:
+        - column_id: City
+          show_headline: false
+        - column_id: Total Age
+          show_headline: false
+        ordered_column_ids:
+        - City
+        - Total Age
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: City
+        - column_id: Total Age
+        axis_configs:
+        - x:
+          - City
+          "y":
+          - Total Age
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 8c820eba-ca18-480b-90c4-6b0396348310
